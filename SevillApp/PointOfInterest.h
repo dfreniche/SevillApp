@@ -8,6 +8,9 @@
 
 #import <Foundation/Foundation.h>
 
+#define kDEFAULT_LATITUDE 37.386303
+#define kDEFAULT_LONGITUDE -5.992396
+
 @interface PointOfInterest : NSObject
 // id, name, shortDescription, description, photos[], videos[], latitude, longitude, address, tags[], pinIcon, thumbImage, url
 
