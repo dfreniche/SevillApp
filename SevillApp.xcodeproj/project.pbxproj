@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		990C044C16647D04004BF85E /* PointOfInterestData.plist in Resources */ = {isa = PBXBuildFile; fileRef = 990C044B16647D04004BF85E /* PointOfInterestData.plist */; };
 		990C044D16647D04004BF85E /* PointOfInterestData.plist in Resources */ = {isa = PBXBuildFile; fileRef = 990C044B16647D04004BF85E /* PointOfInterestData.plist */; };
+		990C045316648105004BF85E /* PointOfInterest.m in Sources */ = {isa = PBXBuildFile; fileRef = 990C045216648105004BF85E /* PointOfInterest.m */; };
+		990C045416648105004BF85E /* PointOfInterest.m in Sources */ = {isa = PBXBuildFile; fileRef = 990C045216648105004BF85E /* PointOfInterest.m */; };
 		99E7E0941664766900689820 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99E7E0931664766900689820 /* UIKit.framework */; };
 		99E7E0961664766900689820 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99E7E0951664766900689820 /* Foundation.framework */; };
 		99E7E0981664766900689820 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99E7E0971664766900689820 /* CoreGraphics.framework */; };
@@ -38,6 +40,8 @@
 
 /* Begin PBXFileReference section */
 		990C044B16647D04004BF85E /* PointOfInterestData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = PointOfInterestData.plist; sourceTree = "<group>"; };
+		990C045116648105004BF85E /* PointOfInterest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PointOfInterest.h; sourceTree = "<group>"; };
+		990C045216648105004BF85E /* PointOfInterest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PointOfInterest.m; sourceTree = "<group>"; };
 		99E7E08F1664766900689820 /* SevillApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SevillApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		99E7E0931664766900689820 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		99E7E0951664766900689820 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -91,6 +95,7 @@
 				990C044B16647D04004BF85E /* PointOfInterestData.plist */,
 			);
 			name = Resources;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		990C045016648099004BF85E /* img */ = {
@@ -100,10 +105,18 @@
 			name = img;
 			sourceTree = "<group>";
 		};
+		990C045516648297004BF85E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				990C045116648105004BF85E /* PointOfInterest.h */,
+				990C045216648105004BF85E /* PointOfInterest.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
 		99E7E0841664766900689820 = {
 			isa = PBXGroup;
 			children = (
-				990C044F16648031004BF85E /* Resources */,
 				99E7E0991664766900689820 /* SevillApp */,
 				99E7E0B71664766A00689820 /* SevillAppTests */,
 				99E7E0921664766900689820 /* Frameworks */,
@@ -136,6 +149,8 @@
 			children = (
 				99E7E0A21664766900689820 /* AppDelegate.h */,
 				99E7E0A31664766900689820 /* AppDelegate.m */,
+				990C044F16648031004BF85E /* Resources */,
+				990C045516648297004BF85E /* Model */,
 				99E7E0CA166477A600689820 /* View */,
 				99E7E09A1664766900689820 /* Supporting Files */,
 			);
@@ -297,6 +312,7 @@
 			files = (
 				99E7E0A01664766900689820 /* main.m in Sources */,
 				99E7E0A41664766900689820 /* AppDelegate.m in Sources */,
+				990C045316648105004BF85E /* PointOfInterest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -305,6 +321,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				99E7E0BF1664766A00689820 /* SevillAppTests.m in Sources */,
+				990C045416648105004BF85E /* PointOfInterest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
