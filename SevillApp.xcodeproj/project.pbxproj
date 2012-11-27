@@ -1,0 +1,444 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		99E7E0941664766900689820 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99E7E0931664766900689820 /* UIKit.framework */; };
+		99E7E0961664766900689820 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99E7E0951664766900689820 /* Foundation.framework */; };
+		99E7E0981664766900689820 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99E7E0971664766900689820 /* CoreGraphics.framework */; };
+		99E7E09E1664766900689820 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 99E7E09C1664766900689820 /* InfoPlist.strings */; };
+		99E7E0A01664766900689820 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 99E7E09F1664766900689820 /* main.m */; };
+		99E7E0A41664766900689820 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 99E7E0A31664766900689820 /* AppDelegate.m */; };
+		99E7E0A61664766900689820 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 99E7E0A51664766900689820 /* Default.png */; };
+		99E7E0A81664766900689820 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 99E7E0A71664766900689820 /* Default@2x.png */; };
+		99E7E0AA1664766900689820 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 99E7E0A91664766900689820 /* Default-568h@2x.png */; };
+		99E7E0B21664766A00689820 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99E7E0B11664766A00689820 /* SenTestingKit.framework */; };
+		99E7E0B31664766A00689820 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99E7E0931664766900689820 /* UIKit.framework */; };
+		99E7E0B41664766A00689820 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99E7E0951664766900689820 /* Foundation.framework */; };
+		99E7E0BC1664766A00689820 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 99E7E0BA1664766A00689820 /* InfoPlist.strings */; };
+		99E7E0BF1664766A00689820 /* SevillAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 99E7E0BE1664766A00689820 /* SevillAppTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		99E7E0B51664766A00689820 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 99E7E0861664766900689820 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 99E7E08E1664766900689820;
+			remoteInfo = SevillApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		99E7E08F1664766900689820 /* SevillApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SevillApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		99E7E0931664766900689820 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		99E7E0951664766900689820 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		99E7E0971664766900689820 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		99E7E09B1664766900689820 /* SevillApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SevillApp-Info.plist"; sourceTree = "<group>"; };
+		99E7E09D1664766900689820 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		99E7E09F1664766900689820 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		99E7E0A11664766900689820 /* SevillApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SevillApp-Prefix.pch"; sourceTree = "<group>"; };
+		99E7E0A21664766900689820 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		99E7E0A31664766900689820 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		99E7E0A51664766900689820 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		99E7E0A71664766900689820 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		99E7E0A91664766900689820 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		99E7E0B01664766A00689820 /* SevillAppTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SevillAppTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		99E7E0B11664766A00689820 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		99E7E0B91664766A00689820 /* SevillAppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SevillAppTests-Info.plist"; sourceTree = "<group>"; };
+		99E7E0BB1664766A00689820 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		99E7E0BD1664766A00689820 /* SevillAppTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SevillAppTests.h; sourceTree = "<group>"; };
+		99E7E0BE1664766A00689820 /* SevillAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SevillAppTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		99E7E08C1664766900689820 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99E7E0941664766900689820 /* UIKit.framework in Frameworks */,
+				99E7E0961664766900689820 /* Foundation.framework in Frameworks */,
+				99E7E0981664766900689820 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99E7E0AC1664766A00689820 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99E7E0B21664766A00689820 /* SenTestingKit.framework in Frameworks */,
+				99E7E0B31664766A00689820 /* UIKit.framework in Frameworks */,
+				99E7E0B41664766A00689820 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		99E7E0841664766900689820 = {
+			isa = PBXGroup;
+			children = (
+				99E7E0991664766900689820 /* SevillApp */,
+				99E7E0B71664766A00689820 /* SevillAppTests */,
+				99E7E0921664766900689820 /* Frameworks */,
+				99E7E0901664766900689820 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		99E7E0901664766900689820 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				99E7E08F1664766900689820 /* SevillApp.app */,
+				99E7E0B01664766A00689820 /* SevillAppTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		99E7E0921664766900689820 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				99E7E0931664766900689820 /* UIKit.framework */,
+				99E7E0951664766900689820 /* Foundation.framework */,
+				99E7E0971664766900689820 /* CoreGraphics.framework */,
+				99E7E0B11664766A00689820 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		99E7E0991664766900689820 /* SevillApp */ = {
+			isa = PBXGroup;
+			children = (
+				99E7E0A21664766900689820 /* AppDelegate.h */,
+				99E7E0A31664766900689820 /* AppDelegate.m */,
+				99E7E09A1664766900689820 /* Supporting Files */,
+			);
+			path = SevillApp;
+			sourceTree = "<group>";
+		};
+		99E7E09A1664766900689820 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				99E7E09B1664766900689820 /* SevillApp-Info.plist */,
+				99E7E09C1664766900689820 /* InfoPlist.strings */,
+				99E7E09F1664766900689820 /* main.m */,
+				99E7E0A11664766900689820 /* SevillApp-Prefix.pch */,
+				99E7E0A51664766900689820 /* Default.png */,
+				99E7E0A71664766900689820 /* Default@2x.png */,
+				99E7E0A91664766900689820 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		99E7E0B71664766A00689820 /* SevillAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				99E7E0BD1664766A00689820 /* SevillAppTests.h */,
+				99E7E0BE1664766A00689820 /* SevillAppTests.m */,
+				99E7E0B81664766A00689820 /* Supporting Files */,
+			);
+			path = SevillAppTests;
+			sourceTree = "<group>";
+		};
+		99E7E0B81664766A00689820 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				99E7E0B91664766A00689820 /* SevillAppTests-Info.plist */,
+				99E7E0BA1664766A00689820 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		99E7E08E1664766900689820 /* SevillApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99E7E0C21664766A00689820 /* Build configuration list for PBXNativeTarget "SevillApp" */;
+			buildPhases = (
+				99E7E08B1664766900689820 /* Sources */,
+				99E7E08C1664766900689820 /* Frameworks */,
+				99E7E08D1664766900689820 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SevillApp;
+			productName = SevillApp;
+			productReference = 99E7E08F1664766900689820 /* SevillApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		99E7E0AF1664766A00689820 /* SevillAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99E7E0C51664766A00689820 /* Build configuration list for PBXNativeTarget "SevillAppTests" */;
+			buildPhases = (
+				99E7E0AB1664766A00689820 /* Sources */,
+				99E7E0AC1664766A00689820 /* Frameworks */,
+				99E7E0AD1664766A00689820 /* Resources */,
+				99E7E0AE1664766A00689820 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				99E7E0B61664766A00689820 /* PBXTargetDependency */,
+			);
+			name = SevillAppTests;
+			productName = SevillAppTests;
+			productReference = 99E7E0B01664766A00689820 /* SevillAppTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		99E7E0861664766900689820 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Diego Freniche Brito";
+			};
+			buildConfigurationList = 99E7E0891664766900689820 /* Build configuration list for PBXProject "SevillApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 99E7E0841664766900689820;
+			productRefGroup = 99E7E0901664766900689820 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				99E7E08E1664766900689820 /* SevillApp */,
+				99E7E0AF1664766A00689820 /* SevillAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		99E7E08D1664766900689820 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99E7E09E1664766900689820 /* InfoPlist.strings in Resources */,
+				99E7E0A61664766900689820 /* Default.png in Resources */,
+				99E7E0A81664766900689820 /* Default@2x.png in Resources */,
+				99E7E0AA1664766900689820 /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99E7E0AD1664766A00689820 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99E7E0BC1664766A00689820 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		99E7E0AE1664766A00689820 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		99E7E08B1664766900689820 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99E7E0A01664766900689820 /* main.m in Sources */,
+				99E7E0A41664766900689820 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99E7E0AB1664766A00689820 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99E7E0BF1664766A00689820 /* SevillAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		99E7E0B61664766A00689820 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 99E7E08E1664766900689820 /* SevillApp */;
+			targetProxy = 99E7E0B51664766A00689820 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		99E7E09C1664766900689820 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				99E7E09D1664766900689820 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		99E7E0BA1664766A00689820 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				99E7E0BB1664766A00689820 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		99E7E0C01664766A00689820 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		99E7E0C11664766A00689820 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		99E7E0C31664766A00689820 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SevillApp/SevillApp-Prefix.pch";
+				INFOPLIST_FILE = "SevillApp/SevillApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		99E7E0C41664766A00689820 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SevillApp/SevillApp-Prefix.pch";
+				INFOPLIST_FILE = "SevillApp/SevillApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		99E7E0C61664766A00689820 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SevillApp.app/SevillApp";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SevillApp/SevillApp-Prefix.pch";
+				INFOPLIST_FILE = "SevillAppTests/SevillAppTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		99E7E0C71664766A00689820 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SevillApp.app/SevillApp";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SevillApp/SevillApp-Prefix.pch";
+				INFOPLIST_FILE = "SevillAppTests/SevillAppTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		99E7E0891664766900689820 /* Build configuration list for PBXProject "SevillApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99E7E0C01664766A00689820 /* Debug */,
+				99E7E0C11664766A00689820 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		99E7E0C21664766A00689820 /* Build configuration list for PBXNativeTarget "SevillApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99E7E0C31664766A00689820 /* Debug */,
+				99E7E0C41664766A00689820 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		99E7E0C51664766A00689820 /* Build configuration list for PBXNativeTarget "SevillAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99E7E0C61664766A00689820 /* Debug */,
+				99E7E0C71664766A00689820 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 99E7E0861664766900689820 /* Project object */;
+}
