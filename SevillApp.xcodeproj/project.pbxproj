@@ -21,6 +21,7 @@
 		99E7E0B41664766A00689820 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99E7E0951664766900689820 /* Foundation.framework */; };
 		99E7E0BC1664766A00689820 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 99E7E0BA1664766A00689820 /* InfoPlist.strings */; };
 		99E7E0BF1664766A00689820 /* SevillAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 99E7E0BE1664766A00689820 /* SevillAppTests.m */; };
+		99E7E0C91664779A00689820 /* Storyboard-iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99E7E0C81664779A00689820 /* Storyboard-iPhone.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		99E7E0BB1664766A00689820 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		99E7E0BD1664766A00689820 /* SevillAppTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SevillAppTests.h; sourceTree = "<group>"; };
 		99E7E0BE1664766A00689820 /* SevillAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SevillAppTests.m; sourceTree = "<group>"; };
+		99E7E0C81664779A00689820 /* Storyboard-iPhone.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Storyboard-iPhone.storyboard"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +116,7 @@
 			children = (
 				99E7E0A21664766900689820 /* AppDelegate.h */,
 				99E7E0A31664766900689820 /* AppDelegate.m */,
+				99E7E0CA166477A600689820 /* View */,
 				99E7E09A1664766900689820 /* Supporting Files */,
 			);
 			path = SevillApp;
@@ -150,6 +153,14 @@
 				99E7E0BA1664766A00689820 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		99E7E0CA166477A600689820 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				99E7E0C81664779A00689820 /* Storyboard-iPhone.storyboard */,
+			);
+			name = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -227,6 +238,7 @@
 				99E7E0A61664766900689820 /* Default.png in Resources */,
 				99E7E0A81664766900689820 /* Default@2x.png in Resources */,
 				99E7E0AA1664766900689820 /* Default-568h@2x.png in Resources */,
+				99E7E0C91664779A00689820 /* Storyboard-iPhone.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
