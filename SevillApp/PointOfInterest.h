@@ -8,8 +8,9 @@
 
 #import <Foundation/Foundation.h>
 
-#define kDEFAULT_LATITUDE 37.386303
-#define kDEFAULT_LONGITUDE -5.992396
+#define kPOI_DEFAULT_LATITUDE 37.386303
+#define kPOI_DEFAULT_LONGITUDE -5.992396
+#define kPOI_DEFAULT_NAME @"POI"
 
 @interface PointOfInterest : NSObject
 // id, name, shortDescription, description, photos[], videos[], latitude, longitude, address, tags[], pinIcon, thumbImage, url
@@ -24,8 +25,8 @@
 @property (nonatomic, strong) NSNumber *longitude;
 @property (nonatomic, strong) NSString *address;
 @property (nonatomic, strong) NSArray *tags;
-@property (nonatomic, strong) NSString *pinIcon;
-@property (nonatomic, strong) NSString *thumbImage;
+@property (nonatomic, strong) NSString *pinIconName;
+@property (nonatomic, strong) NSString *thumbImageName;
 @property (nonatomic, strong) NSString *url;
 
 - (id)initWithId:(NSNumber *)id name:(NSString *)name shortDescription:(NSString *)shortDescription latitude:(NSNumber *)latitude longitude:(NSNumber *)longitude;

@@ -11,7 +11,7 @@
 @implementation PointOfInterest
 
 - (id)init {
-    return [self initWithId:[NSNumber numberWithInt:1] name:@"POI" shortDescription:@"" latitude:[NSNumber numberWithFloat:37.386303] longitude:[NSNumber numberWithFloat:-5.992396]];
+    return [self initWithId:[NSNumber numberWithInt:1] name:kPOI_DEFAULT_NAME shortDescription:@"" latitude:[NSNumber numberWithFloat:37.386303] longitude:[NSNumber numberWithFloat:-5.992396]];
 }
 
 // designated initializer
