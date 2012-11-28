@@ -10,4 +10,13 @@
 
 @implementation Route
 
+- (id) initWithId:(NSNumber *)identifier andName:(NSString *)name description:(NSString *)description {
+    if (self = [super init]) {
+        _identifier = identifier;
+        _name = name;
+        _description = description;
+    }
+    return self;
+}
+
 @end

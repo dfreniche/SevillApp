@@ -12,7 +12,7 @@
 
 // id, name, description, POIs[]
 
-@property (nonatomic, strong) NSNumber *id;
+@property (nonatomic, strong) NSNumber *identifier;
 @property (nonatomic, strong) NSString *name;
 @property (nonatomic, strong) NSString *description;
 @property (nonatomic, strong) NSArray *pois;
