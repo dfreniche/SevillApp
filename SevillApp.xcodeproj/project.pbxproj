@@ -13,6 +13,7 @@
 		990C045416648105004BF85E /* PointOfInterest.m in Sources */ = {isa = PBXBuildFile; fileRef = 990C045216648105004BF85E /* PointOfInterest.m */; };
 		990C045816648675004BF85E /* Route.m in Sources */ = {isa = PBXBuildFile; fileRef = 990C045716648675004BF85E /* Route.m */; };
 		990C045916648675004BF85E /* Route.m in Sources */ = {isa = PBXBuildFile; fileRef = 990C045716648675004BF85E /* Route.m */; };
+		990C045B16649059004BF85E /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 990C045A16649059004BF85E /* MapKit.framework */; };
 		99E7E0941664766900689820 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99E7E0931664766900689820 /* UIKit.framework */; };
 		99E7E0961664766900689820 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99E7E0951664766900689820 /* Foundation.framework */; };
 		99E7E0981664766900689820 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99E7E0971664766900689820 /* CoreGraphics.framework */; };
@@ -46,6 +47,7 @@
 		990C045216648105004BF85E /* PointOfInterest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PointOfInterest.m; sourceTree = "<group>"; };
 		990C045616648675004BF85E /* Route.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Route.h; sourceTree = "<group>"; };
 		990C045716648675004BF85E /* Route.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Route.m; sourceTree = "<group>"; };
+		990C045A16649059004BF85E /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		99E7E08F1664766900689820 /* SevillApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SevillApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		99E7E0931664766900689820 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		99E7E0951664766900689820 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -73,6 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				990C045B16649059004BF85E /* MapKit.framework in Frameworks */,
 				99E7E0941664766900689820 /* UIKit.framework in Frameworks */,
 				99E7E0961664766900689820 /* Foundation.framework in Frameworks */,
 				99E7E0981664766900689820 /* CoreGraphics.framework in Frameworks */,
@@ -123,6 +126,7 @@
 		99E7E0841664766900689820 = {
 			isa = PBXGroup;
 			children = (
+				990C045A16649059004BF85E /* MapKit.framework */,
 				99E7E0991664766900689820 /* SevillApp */,
 				99E7E0B71664766A00689820 /* SevillAppTests */,
 				99E7E0921664766900689820 /* Frameworks */,

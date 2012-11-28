@@ -26,7 +26,16 @@
                     <view key="view" contentMode="scaleToFill" id="Aaa-IF-eu0">
                         <rect key="frame" x="0.0" y="20" width="320" height="499"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="S9B-nk-xiT"/>
+                        </subviews>
                         <color key="backgroundColor" red="0.40000000596046448" green="1" blue="0.80000001192092896" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="S9B-nk-xiT" firstAttribute="top" secondItem="Aaa-IF-eu0" secondAttribute="top" type="default" id="JBH-xk-NAj"/>
+                            <constraint firstItem="S9B-nk-xiT" firstAttribute="bottom" secondItem="Aaa-IF-eu0" secondAttribute="bottom" type="default" id="NLO-4m-1wY"/>
+                            <constraint firstItem="S9B-nk-xiT" firstAttribute="leading" secondItem="Aaa-IF-eu0" secondAttribute="leading" type="default" id="gzh-Q5-5Uk"/>
+                            <constraint firstItem="S9B-nk-xiT" firstAttribute="trailing" secondItem="Aaa-IF-eu0" secondAttribute="trailing" type="default" id="noq-53-n4S"/>
+                        </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Item" id="JeB-F1-wfj"/>
                 </viewController>
@@ -70,6 +79,11 @@
             <point key="canvasLocation" x="-70" y="-124"/>
         </scene>
     </scenes>
+    <classes>
+        <class className="NSLayoutConstraint" superclassName="NSObject">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>
+        </class>
+    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>
