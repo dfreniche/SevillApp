@@ -27,8 +27,8 @@
     
     Route *r = [[Route alloc] init];
     STAssertNotNil(r, @"Route must NOT be nil");
-    
-    NSString* plistPath = [[NSBundle mainBundle] pathForResource:plistFileName ofType:@"plist"];
+
+     NSString* plistPath = [[NSBundle mainBundle] pathForResource:plistFileName ofType:@"plist"];
 
     // NSDictionary *dict = [NSDictionary dictionaryWithContentsOfFile:plistPath];
     // STAssertNotNil(dict, @"Dictionary nil: faling to load plist file");
@@ -83,7 +83,8 @@
 
     [r loadLocalRoutesFromFileName:plistFileName];
     STAssertNotNil([r pois], @"POIs can't be nil");
-    STAssertEquals([[r pois] count], (NSUInteger)2, @"Incorrect count");
+    STAssertEquals([r count], (NSUInteger)2, @"Incorrect count");
+    
 }
 
 @end

@@ -27,6 +27,9 @@
     NSString* plistPath = [[NSBundle mainBundle] pathForResource:plistFileName ofType:@"plist"];
     
     NSArray *array = [NSArray arrayWithContentsOfFile:plistPath];
+    if (!array) {
+        return;
+    }
     NSMutableArray *tempPois = [[NSMutableArray alloc] initWithCapacity:[array count]];
     for (NSDictionary *d in array) {
         NSNumberFormatter * f = [[NSNumberFormatter alloc] init];
@@ -41,10 +44,15 @@
                                                         latitude:lat
                                                        longitude:longit];
         [p setPhotos:[NSMutableArray arrayWithArray:photos]];
+        [p setThumbImageName:[d objectForKey:@"thumbImageName"]];
         [tempPois addObject:p];
     }
     
     [self setPois:[NSArray arrayWithArray:tempPois]];
+}
+
+- (NSUInteger)count {
+    return [self.pois count];
 }
 
 @end

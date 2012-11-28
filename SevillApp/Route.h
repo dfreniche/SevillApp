@@ -20,5 +20,6 @@
 
 - (id) initWithId:(NSNumber *)identifier andName:(NSString *)name description:(NSString *)description;
 - (void) loadLocalRoutesFromFileName:(NSString *)plistFileName;
+- (NSUInteger)count;
 
 @end
