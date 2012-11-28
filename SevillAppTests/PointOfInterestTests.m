@@ -30,14 +30,43 @@
     [super tearDown];
 }
 
-- (void)testDesignatedInitializer
-{
+- (void)testDefaultInitializer {
     PointOfInterest *p = [[PointOfInterest alloc] init];
     STAssertNotNil(p, @"Point must not be nil");
     
-    STAssertEqualObjects([p name], @"POI", @"Name must be POI, but it's %@", [p name]);
-    STAssertEqualObjects([p latitude], [NSNumber numberWithFloat:kDEFAULT_LATITUDE], @"Latitude must be %@, but it's %@", [NSNumber numberWithFloat:kDEFAULT_LATITUDE], [p latitude]);
+    STAssertEqualObjects([p latitude], [NSNumber numberWithFloat:kPOI_DEFAULT_LATITUDE], @"Latitude must be %@, but it's %@", [NSNumber numberWithFloat:kPOI_DEFAULT_LATITUDE], [p latitude]);
+    STAssertEqualObjects([p longitude], [NSNumber numberWithFloat:kPOI_DEFAULT_LONGITUDE], @"Longitude must be %@, but it's %@", [NSNumber numberWithFloat:kPOI_DEFAULT_LONGITUDE], [p longitude]);
+    STAssertEqualObjects([p name], kPOI_DEFAULT_NAME, @"Name must be %@, but it's %@", kPOI_DEFAULT_NAME, [p name]);
+    
     
 }
+
+- (void)testDesignatedInitializer {
+    NSUInteger ident = 25;
+    NSString *name = @"The name";
+    NSString *shortDescription = @"This is a short description";
+    NSNumber *lat = [NSNumber numberWithFloat:kPOI_DEFAULT_LATITUDE];
+    NSNumber *longit = [NSNumber numberWithFloat:kPOI_DEFAULT_LONGITUDE];
+    
+    PointOfInterest *p = [[PointOfInterest alloc] initWithId:[NSNumber numberWithInt:ident] name:name shortDescription:shortDescription latitude:lat longitude:longit];
+    STAssertNotNil(p, @"Point must not be nil");
+    
+    STAssertEqualObjects([p name], name, @"Name must be %@, but it's %@", name, [p name]);
+    STAssertEqualObjects([p latitude], lat, @"Latitude must be %@, but it's %@", lat, [p latitude]);
+    STAssertEqualObjects([p longitude], longit, @"Longitude must be %@, but it's %@", longit, [p longitude]);
+    STAssertEqualObjects([p shortDescription], shortDescription, @"ShortDescription must be %@, but it's %@", shortDescription, [p shortDescription]);
+}
+
+- (void) testAllProperties {
+    NSString *address = @"one address";
+    [self.point setAddress:address];
+    STAssertEqualObjects([self.point address], address, @"Address must be %@, but it's %@", address, [self.point address]);
+
+    NSString *pinIconName = @"pin.png";
+    self.point.pinIconName = pinIconName;
+    STAssertEqualObjects([self.point pinIconName], pinIconName, @"PinIconName must be %@, but it's %@", pinIconName, [self.point pinIconName]);
+    
+}
+
 
 @end
