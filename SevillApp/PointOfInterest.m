@@ -28,5 +28,27 @@
     return self;
 }
 
+#pragma mark - Lazy Getters
+
+- (NSMutableArray *)photos {
+    if (!_photos) {
+        _photos = [[NSMutableArray alloc] init];
+    }
+    return _photos;
+}
+
+- (NSMutableArray *)videos {
+    if (!_videos) {
+        _videos = [[NSMutableArray alloc] init];
+    }
+    return _videos;
+}
+
+- (NSArray *)tags {
+    if (!_tags) {
+        _tags = [[NSMutableArray alloc] init];
+    }
+    return _tags;
+}
 
 @end

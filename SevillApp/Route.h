@@ -7,6 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "PointOfInterest.h"
 
 @interface Route : NSObject
 
@@ -16,5 +17,8 @@
 @property (nonatomic, strong) NSString *name;
 @property (nonatomic, strong) NSString *description;
 @property (nonatomic, strong) NSArray *pois;
+
+- (id) initWithId:(NSNumber *)identifier andName:(NSString *)name description:(NSString *)description;
+- (void) loadLocalRoutesFromFileName:(NSString *)plistFileName;
 
 @end

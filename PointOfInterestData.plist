@@ -25,9 +25,9 @@
 		<array>
 			<string>Monumento</string>
 		</array>
-		<key>pinIcon</key>
+		<key>pinIconName</key>
 		<string></string>
-		<key>thumbImage</key>
+		<key>thumbImageName</key>
 		<string></string>
 		<key>url</key>
 		<string>http://es.wikipedia.org/wiki/Giralda</string>

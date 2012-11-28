@@ -19,12 +19,12 @@
 @property (nonatomic, strong) NSString *name;
 @property (nonatomic, strong) NSString *shortDescription;
 @property (nonatomic, strong) NSString *description;
-@property (nonatomic, strong) NSArray *photos;
-@property (nonatomic, strong) NSArray *videos;
+@property (nonatomic, strong) NSMutableArray *photos;
+@property (nonatomic, strong) NSMutableArray *videos;
 @property (nonatomic, strong) NSNumber *latitude;
 @property (nonatomic, strong) NSNumber *longitude;
 @property (nonatomic, strong) NSString *address;
-@property (nonatomic, strong) NSArray *tags;
+@property (nonatomic, strong) NSMutableArray *tags;
 @property (nonatomic, strong) NSString *pinIconName;
 @property (nonatomic, strong) NSString *thumbImageName;
 @property (nonatomic, strong) NSString *url;

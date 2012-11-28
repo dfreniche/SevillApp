@@ -65,8 +65,12 @@
     NSString *pinIconName = @"pin.png";
     self.point.pinIconName = pinIconName;
     STAssertEqualObjects([self.point pinIconName], pinIconName, @"PinIconName must be %@, but it's %@", pinIconName, [self.point pinIconName]);
-    
 }
 
+- (void) testPhotos {
+    STAssertNotNil([self.point photos], @"Photos must NOT be nil");
+    [[self.point photos] addObject:@"newPhoto.png"];
+    STAssertEqualObjects([[self.point photos] lastObject], @"newPhoto.png", @"Name of photo is not equal");
+}
 
 @end

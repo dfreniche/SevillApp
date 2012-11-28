@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		990C044C16647D04004BF85E /* PointOfInterestData.plist in Resources */ = {isa = PBXBuildFile; fileRef = 990C044B16647D04004BF85E /* PointOfInterestData.plist */; };
-		990C044D16647D04004BF85E /* PointOfInterestData.plist in Resources */ = {isa = PBXBuildFile; fileRef = 990C044B16647D04004BF85E /* PointOfInterestData.plist */; };
 		990C045316648105004BF85E /* PointOfInterest.m in Sources */ = {isa = PBXBuildFile; fileRef = 990C045216648105004BF85E /* PointOfInterest.m */; };
 		990C045416648105004BF85E /* PointOfInterest.m in Sources */ = {isa = PBXBuildFile; fileRef = 990C045216648105004BF85E /* PointOfInterest.m */; };
 		990C045816648675004BF85E /* Route.m in Sources */ = {isa = PBXBuildFile; fileRef = 990C045716648675004BF85E /* Route.m */; };
 		990C045916648675004BF85E /* Route.m in Sources */ = {isa = PBXBuildFile; fileRef = 990C045716648675004BF85E /* Route.m */; };
 		990C045B16649059004BF85E /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 990C045A16649059004BF85E /* MapKit.framework */; };
+		995F64311665E541005B835D /* RouteTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 995F64301665E541005B835D /* RouteTests.m */; };
+		995F64341665EFF8005B835D /* PointOfInterestDataTest.plist in Resources */ = {isa = PBXBuildFile; fileRef = 995F64331665EFF8005B835D /* PointOfInterestDataTest.plist */; };
+		9975A77016661A1D00DC1AE9 /* PointOfInterestDataTest.plist in Resources */ = {isa = PBXBuildFile; fileRef = 995F64331665EFF8005B835D /* PointOfInterestDataTest.plist */; };
 		99E7E0941664766900689820 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99E7E0931664766900689820 /* UIKit.framework */; };
 		99E7E0961664766900689820 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99E7E0951664766900689820 /* Foundation.framework */; };
 		99E7E0981664766900689820 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99E7E0971664766900689820 /* CoreGraphics.framework */; };
@@ -48,6 +50,9 @@
 		990C045616648675004BF85E /* Route.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Route.h; sourceTree = "<group>"; };
 		990C045716648675004BF85E /* Route.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Route.m; sourceTree = "<group>"; };
 		990C045A16649059004BF85E /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		995F642F1665E541005B835D /* RouteTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RouteTests.h; sourceTree = "<group>"; };
+		995F64301665E541005B835D /* RouteTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RouteTests.m; sourceTree = "<group>"; };
+		995F64331665EFF8005B835D /* PointOfInterestDataTest.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = PointOfInterestDataTest.plist; sourceTree = "<group>"; };
 		99E7E08F1664766900689820 /* SevillApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SevillApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		99E7E0931664766900689820 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		99E7E0951664766900689820 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -186,6 +191,9 @@
 			children = (
 				99E7E0BD1664766A00689820 /* PointOfInterestTests.h */,
 				99E7E0BE1664766A00689820 /* PointOfInterestTests.m */,
+				995F642F1665E541005B835D /* RouteTests.h */,
+				995F64301665E541005B835D /* RouteTests.m */,
+				995F64331665EFF8005B835D /* PointOfInterestDataTest.plist */,
 				99E7E0B81664766A00689820 /* Supporting Files */,
 			);
 			path = SevillAppTests;
@@ -279,6 +287,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9975A77016661A1D00DC1AE9 /* PointOfInterestDataTest.plist in Resources */,
 				99E7E09E1664766900689820 /* InfoPlist.strings in Resources */,
 				99E7E0A61664766900689820 /* Default.png in Resources */,
 				99E7E0A81664766900689820 /* Default@2x.png in Resources */,
@@ -293,7 +302,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				99E7E0BC1664766A00689820 /* InfoPlist.strings in Resources */,
-				990C044D16647D04004BF85E /* PointOfInterestData.plist in Resources */,
+				995F64341665EFF8005B835D /* PointOfInterestDataTest.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -334,6 +343,7 @@
 				99E7E0BF1664766A00689820 /* PointOfInterestTests.m in Sources */,
 				990C045416648105004BF85E /* PointOfInterest.m in Sources */,
 				990C045916648675004BF85E /* Route.m in Sources */,
+				995F64311665E541005B835D /* RouteTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

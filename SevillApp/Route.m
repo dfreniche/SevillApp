@@ -19,4 +19,32 @@
     return self;
 }
 
+#pragma mark - lazy getters
+
+
+- (void) loadLocalRoutesFromFileName:(NSString *)plistFileName {
+    
+    NSString* plistPath = [[NSBundle mainBundle] pathForResource:plistFileName ofType:@"plist"];
+    
+    NSArray *array = [NSArray arrayWithContentsOfFile:plistPath];
+    NSMutableArray *tempPois = [[NSMutableArray alloc] initWithCapacity:[array count]];
+    for (NSDictionary *d in array) {
+        NSNumberFormatter * f = [[NSNumberFormatter alloc] init];
+        [f setNumberStyle:NSNumberFormatterNoStyle];
+        NSNumber *lat = [f numberFromString:(NSString *)[d objectForKey:@"latitude"]];
+        NSNumber *longit = [f numberFromString:(NSString *)[d objectForKey:@"longitude"]];
+        NSArray *photos = [d objectForKey:@"photos"];
+        
+        PointOfInterest *p = [[PointOfInterest alloc] initWithId:[d objectForKey:@"id"]
+                                                            name:[d objectForKey:@"name"]
+                                                shortDescription:[d objectForKey:@"shortDescription"]
+                                                        latitude:lat
+                                                       longitude:longit];
+        [p setPhotos:[NSMutableArray arrayWithArray:photos]];
+        [tempPois addObject:p];
+    }
+    
+    [self setPois:[NSArray arrayWithArray:tempPois]];
+}
+
 @end
