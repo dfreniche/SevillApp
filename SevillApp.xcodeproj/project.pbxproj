@@ -13,9 +13,17 @@
 		990C045816648675004BF85E /* Route.m in Sources */ = {isa = PBXBuildFile; fileRef = 990C045716648675004BF85E /* Route.m */; };
 		990C045916648675004BF85E /* Route.m in Sources */ = {isa = PBXBuildFile; fileRef = 990C045716648675004BF85E /* Route.m */; };
 		990C045B16649059004BF85E /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 990C045A16649059004BF85E /* MapKit.framework */; };
+		99250AE21666811D006B008D /* PointOfInterestDataTest.plist in Resources */ = {isa = PBXBuildFile; fileRef = 995F64331665EFF8005B835D /* PointOfInterestDataTest.plist */; };
+		99250AE61666870A006B008D /* PoiCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 99250AE51666870A006B008D /* PoiCell.m */; };
 		995F64311665E541005B835D /* RouteTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 995F64301665E541005B835D /* RouteTests.m */; };
 		995F64341665EFF8005B835D /* PointOfInterestDataTest.plist in Resources */ = {isa = PBXBuildFile; fileRef = 995F64331665EFF8005B835D /* PointOfInterestDataTest.plist */; };
-		9975A77016661A1D00DC1AE9 /* PointOfInterestDataTest.plist in Resources */ = {isa = PBXBuildFile; fileRef = 995F64331665EFF8005B835D /* PointOfInterestDataTest.plist */; };
+		9975A77316666DDC00DC1AE9 /* 90-life-buoy.png in Resources */ = {isa = PBXBuildFile; fileRef = 9975A77216666DDC00DC1AE9 /* 90-life-buoy.png */; };
+		9975A77516666DE400DC1AE9 /* 103-map.png in Resources */ = {isa = PBXBuildFile; fileRef = 9975A77416666DE400DC1AE9 /* 103-map.png */; };
+		9975A77716666DEA00DC1AE9 /* 131-tower.png in Resources */ = {isa = PBXBuildFile; fileRef = 9975A77616666DEA00DC1AE9 /* 131-tower.png */; };
+		9975A77B166671FD00DC1AE9 /* ListOfPoisViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9975A77A166671FD00DC1AE9 /* ListOfPoisViewController.m */; };
+		99BF762F1666961200E2479E /* PointOfInterestDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 99BF762E1666961200E2479E /* PointOfInterestDetailViewController.m */; };
+		99BF7632166698E200E2479E /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 99BF7631166698E200E2479E /* MapViewController.m */; };
+		99BF76351666999800E2479E /* Seville.m in Sources */ = {isa = PBXBuildFile; fileRef = 99BF76341666999800E2479E /* Seville.m */; };
 		99E7E0941664766900689820 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99E7E0931664766900689820 /* UIKit.framework */; };
 		99E7E0961664766900689820 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99E7E0951664766900689820 /* Foundation.framework */; };
 		99E7E0981664766900689820 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99E7E0971664766900689820 /* CoreGraphics.framework */; };
@@ -50,9 +58,22 @@
 		990C045616648675004BF85E /* Route.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Route.h; sourceTree = "<group>"; };
 		990C045716648675004BF85E /* Route.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Route.m; sourceTree = "<group>"; };
 		990C045A16649059004BF85E /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		99250AE41666870A006B008D /* PoiCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PoiCell.h; sourceTree = "<group>"; };
+		99250AE51666870A006B008D /* PoiCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PoiCell.m; sourceTree = "<group>"; };
 		995F642F1665E541005B835D /* RouteTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RouteTests.h; sourceTree = "<group>"; };
 		995F64301665E541005B835D /* RouteTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RouteTests.m; sourceTree = "<group>"; };
 		995F64331665EFF8005B835D /* PointOfInterestDataTest.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = PointOfInterestDataTest.plist; sourceTree = "<group>"; };
+		9975A77216666DDC00DC1AE9 /* 90-life-buoy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "90-life-buoy.png"; sourceTree = "<group>"; };
+		9975A77416666DE400DC1AE9 /* 103-map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "103-map.png"; sourceTree = "<group>"; };
+		9975A77616666DEA00DC1AE9 /* 131-tower.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "131-tower.png"; sourceTree = "<group>"; };
+		9975A779166671FD00DC1AE9 /* ListOfPoisViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListOfPoisViewController.h; sourceTree = "<group>"; };
+		9975A77A166671FD00DC1AE9 /* ListOfPoisViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListOfPoisViewController.m; sourceTree = "<group>"; };
+		99BF762D1666961200E2479E /* PointOfInterestDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PointOfInterestDetailViewController.h; sourceTree = "<group>"; };
+		99BF762E1666961200E2479E /* PointOfInterestDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PointOfInterestDetailViewController.m; sourceTree = "<group>"; };
+		99BF7630166698E200E2479E /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		99BF7631166698E200E2479E /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		99BF76331666999800E2479E /* Seville.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Seville.h; sourceTree = "<group>"; };
+		99BF76341666999800E2479E /* Seville.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Seville.m; sourceTree = "<group>"; };
 		99E7E08F1664766900689820 /* SevillApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SevillApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		99E7E0931664766900689820 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		99E7E0951664766900689820 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -113,6 +134,9 @@
 		990C045016648099004BF85E /* img */ = {
 			isa = PBXGroup;
 			children = (
+				9975A77616666DEA00DC1AE9 /* 131-tower.png */,
+				9975A77216666DDC00DC1AE9 /* 90-life-buoy.png */,
+				9975A77416666DE400DC1AE9 /* 103-map.png */,
 			);
 			name = img;
 			sourceTree = "<group>";
@@ -124,14 +148,28 @@
 				990C045216648105004BF85E /* PointOfInterest.m */,
 				990C045616648675004BF85E /* Route.h */,
 				990C045716648675004BF85E /* Route.m */,
+				99BF76331666999800E2479E /* Seville.h */,
+				99BF76341666999800E2479E /* Seville.m */,
 			);
 			name = Model;
+			sourceTree = "<group>";
+		};
+		9975A77816666E1C00DC1AE9 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				9975A779166671FD00DC1AE9 /* ListOfPoisViewController.h */,
+				9975A77A166671FD00DC1AE9 /* ListOfPoisViewController.m */,
+				99BF762D1666961200E2479E /* PointOfInterestDetailViewController.h */,
+				99BF762E1666961200E2479E /* PointOfInterestDetailViewController.m */,
+				99BF7630166698E200E2479E /* MapViewController.h */,
+				99BF7631166698E200E2479E /* MapViewController.m */,
+			);
+			name = Controllers;
 			sourceTree = "<group>";
 		};
 		99E7E0841664766900689820 = {
 			isa = PBXGroup;
 			children = (
-				990C045A16649059004BF85E /* MapKit.framework */,
 				99E7E0991664766900689820 /* SevillApp */,
 				99E7E0B71664766A00689820 /* SevillAppTests */,
 				99E7E0921664766900689820 /* Frameworks */,
@@ -151,6 +189,7 @@
 		99E7E0921664766900689820 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				990C045A16649059004BF85E /* MapKit.framework */,
 				99E7E0931664766900689820 /* UIKit.framework */,
 				99E7E0951664766900689820 /* Foundation.framework */,
 				99E7E0971664766900689820 /* CoreGraphics.framework */,
@@ -167,6 +206,7 @@
 				990C044F16648031004BF85E /* Resources */,
 				990C045516648297004BF85E /* Model */,
 				99E7E0CA166477A600689820 /* View */,
+				9975A77816666E1C00DC1AE9 /* Controllers */,
 				99E7E09A1664766900689820 /* Supporting Files */,
 			);
 			path = SevillApp;
@@ -212,6 +252,8 @@
 			isa = PBXGroup;
 			children = (
 				99E7E0C81664779A00689820 /* Storyboard-iPhone.storyboard */,
+				99250AE41666870A006B008D /* PoiCell.h */,
+				99250AE51666870A006B008D /* PoiCell.m */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -287,13 +329,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9975A77016661A1D00DC1AE9 /* PointOfInterestDataTest.plist in Resources */,
+				99250AE21666811D006B008D /* PointOfInterestDataTest.plist in Resources */,
 				99E7E09E1664766900689820 /* InfoPlist.strings in Resources */,
 				99E7E0A61664766900689820 /* Default.png in Resources */,
 				99E7E0A81664766900689820 /* Default@2x.png in Resources */,
 				99E7E0AA1664766900689820 /* Default-568h@2x.png in Resources */,
 				99E7E0C91664779A00689820 /* Storyboard-iPhone.storyboard in Resources */,
 				990C044C16647D04004BF85E /* PointOfInterestData.plist in Resources */,
+				9975A77316666DDC00DC1AE9 /* 90-life-buoy.png in Resources */,
+				9975A77516666DE400DC1AE9 /* 103-map.png in Resources */,
+				9975A77716666DEA00DC1AE9 /* 131-tower.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -333,6 +378,11 @@
 				99E7E0A41664766900689820 /* AppDelegate.m in Sources */,
 				990C045316648105004BF85E /* PointOfInterest.m in Sources */,
 				990C045816648675004BF85E /* Route.m in Sources */,
+				9975A77B166671FD00DC1AE9 /* ListOfPoisViewController.m in Sources */,
+				99250AE61666870A006B008D /* PoiCell.m in Sources */,
+				99BF762F1666961200E2479E /* PointOfInterestDetailViewController.m in Sources */,
+				99BF7632166698E200E2479E /* MapViewController.m in Sources */,
+				99BF76351666999800E2479E /* Seville.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
