@@ -10,6 +10,7 @@
 #import "Route.h"
 #import "PoiCell.h"
 #import "Seville.h"
+#import "PointOfInterestDetailViewController.h"
 
 @interface ListOfPoisViewController ()
 @property (nonatomic, weak) Route *listOfPois;
@@ -47,6 +48,8 @@
     // Dispose of any resources that can be recreated.
 }
 
+#pragma mark - UITableView datasource & delegate
+
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
     return 1;
 }
@@ -63,5 +66,26 @@
     cell.image.image = [UIImage imageNamed:[poi thumbImageName]];
     return cell;
 }
+
+- (void)tableView:(UITableView *)tableView didDeselectRowAtIndexPath:(NSIndexPath *)indexPath {
+    [self performSegueWithIdentifier:@"showPoiDetailSegue" sender:self];
+}
+
+# pragma mark - Segues
+
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+{
+    if ([[segue identifier] isEqualToString:@"showPoiDetailSegue"]) {
+        NSIndexPath *indexPath = [self.tableView indexPathForSelectedRow];
+        PointOfInterest *poi = [[self.listOfPois pois] objectAtIndex:indexPath.row];
+
+        [[segue destinationViewController] setPoi:poi];
+        
+        [self.tableView deselectRowAtIndexPath:indexPath animated:YES];
+        
+    }
+    
+    }
+
 
 @end

@@ -28,7 +28,7 @@
 		<key>pinIconName</key>
 		<string></string>
 		<key>thumbImageName</key>
-		<string>131-tower.png</string>
+		<string>giralda.png</string>
 		<key>url</key>
 		<string>http://es.wikipedia.org/wiki/Giralda</string>
 	</dict>
@@ -76,11 +76,11 @@
 		<key>videos</key>
 		<array/>
 		<key>latitude</key>
-		<string>37.386303</string>
+		<string>37.384404</string>
 		<key>longitude</key>
-		<string>-5.992396</string>
+		<string>-5.992275</string>
 		<key>address</key>
-		<string></string>
+		<string>41004 Sevilla</string>
 		<key>tags</key>
 		<array>
 			<string>Monumento</string>
@@ -106,11 +106,11 @@
 		<key>videos</key>
 		<array/>
 		<key>latitude</key>
-		<string>37.386303</string>
+		<string>37.383257</string>
 		<key>longitude</key>
-		<string>-5.992396</string>
+		<string>-5.987624</string>
 		<key>address</key>
-		<string></string>
+		<string>Av de Menéndez Pelayo, 6</string>
 		<key>tags</key>
 		<array>
 			<string>Monumento</string>
@@ -118,7 +118,7 @@
 		<key>pinIconName</key>
 		<string></string>
 		<key>thumbImageName</key>
-		<string></string>
+		<string>jardines_murillo.png</string>
 		<key>url</key>
 		<string>http://es.wikipedia.org/wiki/Giralda</string>
 	</dict>

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9903AD6616673E74002BE4FB /* giralda.png in Resources */ = {isa = PBXBuildFile; fileRef = 9903AD6416673E74002BE4FB /* giralda.png */; };
+		9903AD6716673E74002BE4FB /* jardines_murillo.png in Resources */ = {isa = PBXBuildFile; fileRef = 9903AD6516673E74002BE4FB /* jardines_murillo.png */; };
 		990C044C16647D04004BF85E /* PointOfInterestData.plist in Resources */ = {isa = PBXBuildFile; fileRef = 990C044B16647D04004BF85E /* PointOfInterestData.plist */; };
 		990C045316648105004BF85E /* PointOfInterest.m in Sources */ = {isa = PBXBuildFile; fileRef = 990C045216648105004BF85E /* PointOfInterest.m */; };
 		990C045416648105004BF85E /* PointOfInterest.m in Sources */ = {isa = PBXBuildFile; fileRef = 990C045216648105004BF85E /* PointOfInterest.m */; };
@@ -24,6 +26,8 @@
 		99BF762F1666961200E2479E /* PointOfInterestDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 99BF762E1666961200E2479E /* PointOfInterestDetailViewController.m */; };
 		99BF7632166698E200E2479E /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 99BF7631166698E200E2479E /* MapViewController.m */; };
 		99BF76351666999800E2479E /* Seville.m in Sources */ = {isa = PBXBuildFile; fileRef = 99BF76341666999800E2479E /* Seville.m */; };
+		99BF763816669EFE00E2479E /* DisplayMap.m in Sources */ = {isa = PBXBuildFile; fileRef = 99BF763716669EFE00E2479E /* DisplayMap.m */; };
+		99BF763A16669FFC00E2479E /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99BF763916669FFC00E2479E /* CoreLocation.framework */; };
 		99E7E0941664766900689820 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99E7E0931664766900689820 /* UIKit.framework */; };
 		99E7E0961664766900689820 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99E7E0951664766900689820 /* Foundation.framework */; };
 		99E7E0981664766900689820 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99E7E0971664766900689820 /* CoreGraphics.framework */; };
@@ -52,6 +56,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9903AD6416673E74002BE4FB /* giralda.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = giralda.png; sourceTree = "<group>"; };
+		9903AD6516673E74002BE4FB /* jardines_murillo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jardines_murillo.png; sourceTree = "<group>"; };
 		990C044B16647D04004BF85E /* PointOfInterestData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = PointOfInterestData.plist; sourceTree = "<group>"; };
 		990C045116648105004BF85E /* PointOfInterest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PointOfInterest.h; sourceTree = "<group>"; };
 		990C045216648105004BF85E /* PointOfInterest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PointOfInterest.m; sourceTree = "<group>"; };
@@ -74,6 +80,9 @@
 		99BF7631166698E200E2479E /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
 		99BF76331666999800E2479E /* Seville.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Seville.h; sourceTree = "<group>"; };
 		99BF76341666999800E2479E /* Seville.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Seville.m; sourceTree = "<group>"; };
+		99BF763616669EFE00E2479E /* DisplayMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DisplayMap.h; sourceTree = "<group>"; };
+		99BF763716669EFE00E2479E /* DisplayMap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DisplayMap.m; sourceTree = "<group>"; };
+		99BF763916669FFC00E2479E /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		99E7E08F1664766900689820 /* SevillApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SevillApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		99E7E0931664766900689820 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		99E7E0951664766900689820 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -101,6 +110,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				99BF763A16669FFC00E2479E /* CoreLocation.framework in Frameworks */,
 				990C045B16649059004BF85E /* MapKit.framework in Frameworks */,
 				99E7E0941664766900689820 /* UIKit.framework in Frameworks */,
 				99E7E0961664766900689820 /* Foundation.framework in Frameworks */,
@@ -121,6 +131,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9903AD6916673E7D002BE4FB /* thumbs */ = {
+			isa = PBXGroup;
+			children = (
+				9903AD6416673E74002BE4FB /* giralda.png */,
+				9903AD6516673E74002BE4FB /* jardines_murillo.png */,
+			);
+			name = thumbs;
+			sourceTree = "<group>";
+		};
 		990C044F16648031004BF85E /* Resources */ = {
 			isa = PBXGroup;
 			children = (
@@ -134,6 +153,7 @@
 		990C045016648099004BF85E /* img */ = {
 			isa = PBXGroup;
 			children = (
+				9903AD6916673E7D002BE4FB /* thumbs */,
 				9975A77616666DEA00DC1AE9 /* 131-tower.png */,
 				9975A77216666DDC00DC1AE9 /* 90-life-buoy.png */,
 				9975A77416666DE400DC1AE9 /* 103-map.png */,
@@ -189,6 +209,7 @@
 		99E7E0921664766900689820 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				99BF763916669FFC00E2479E /* CoreLocation.framework */,
 				990C045A16649059004BF85E /* MapKit.framework */,
 				99E7E0931664766900689820 /* UIKit.framework */,
 				99E7E0951664766900689820 /* Foundation.framework */,
@@ -254,6 +275,8 @@
 				99E7E0C81664779A00689820 /* Storyboard-iPhone.storyboard */,
 				99250AE41666870A006B008D /* PoiCell.h */,
 				99250AE51666870A006B008D /* PoiCell.m */,
+				99BF763616669EFE00E2479E /* DisplayMap.h */,
+				99BF763716669EFE00E2479E /* DisplayMap.m */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -339,6 +362,8 @@
 				9975A77316666DDC00DC1AE9 /* 90-life-buoy.png in Resources */,
 				9975A77516666DE400DC1AE9 /* 103-map.png in Resources */,
 				9975A77716666DEA00DC1AE9 /* 131-tower.png in Resources */,
+				9903AD6616673E74002BE4FB /* giralda.png in Resources */,
+				9903AD6716673E74002BE4FB /* jardines_murillo.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -383,6 +408,7 @@
 				99BF762F1666961200E2479E /* PointOfInterestDetailViewController.m in Sources */,
 				99BF7632166698E200E2479E /* MapViewController.m in Sources */,
 				99BF76351666999800E2479E /* Seville.m in Sources */,
+				99BF763816669EFE00E2479E /* DisplayMap.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

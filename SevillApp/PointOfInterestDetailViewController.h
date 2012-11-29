@@ -7,11 +7,15 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "PointOfInterest.h"
 
 @interface PointOfInterestDetailViewController : UIViewController
+
 @property (strong, nonatomic) IBOutlet UIScrollView *scrollView;
 @property (weak, nonatomic) IBOutlet UIImageView *thumbImage;
 @property (weak, nonatomic) IBOutlet UITextView *shortDescription;
 @property (weak, nonatomic) IBOutlet UITextView *fullDescription;
+
+@property (weak, nonatomic) PointOfInterest *poi;
 
 @end

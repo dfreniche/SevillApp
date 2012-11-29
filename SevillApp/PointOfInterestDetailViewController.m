@@ -36,4 +36,11 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (void)viewWillAppear:(BOOL)animated {
+    if (self.poi) {
+        self.title = self.poi.name;
+        self.thumbImage.image = [UIImage imageNamed:self.poi.thumbImageName];
+    }
+}
+
 @end
