@@ -50,5 +50,10 @@
 }
 
 - (IBAction)openUrlOfPoi:(id)sender {
+    if (self.poi.url) {
+        [[UIApplication sharedApplication] openURL:[NSURL URLWithString:self.poi.url]];
+
+    }
+    
 }
 @end
