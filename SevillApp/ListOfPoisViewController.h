@@ -10,5 +10,6 @@
 
 @interface ListOfPoisViewController : UIViewController <UITableViewDataSource, UITableViewDelegate>
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
+- (IBAction)loadJsonFromServer:(id)sender;
 
 @end

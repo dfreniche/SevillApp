@@ -66,7 +66,13 @@
                             <constraint firstItem="2bq-21-gn3" firstAttribute="leading" secondItem="HYY-vM-Kso" secondAttribute="leading" type="default" id="dgU-h1-fJD"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="Monuments" id="EGO-ik-pR5"/>
+                    <navigationItem key="navigationItem" title="Monuments" id="EGO-ik-pR5">
+                        <barButtonItem key="rightBarButtonItem" systemItem="refresh" id="USz-Ec-81s">
+                            <connections>
+                                <action selector="loadJsonFromServer:" destination="OeW-aV-bTh" id="t8n-Uj-2n2"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
                         <outlet property="tableView" destination="2bq-21-gn3" id="YFX-o8-HZH"/>
                     </connections>
@@ -310,43 +316,6 @@
         <image name="131-tower.png" width="15" height="24"/>
         <image name="90-life-buoy.png" width="24" height="24"/>
     </resources>
-    <classes>
-        <class className="ListOfPoisViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/ListOfPoisViewController.h"/>
-            <relationships>
-                <relationship kind="outlet" name="tableView" candidateClass="UITableView"/>
-            </relationships>
-        </class>
-        <class className="MapViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/MapViewController.h"/>
-            <relationships>
-                <relationship kind="action" name="centerMap:"/>
-                <relationship kind="outlet" name="map" candidateClass="MKMapView"/>
-            </relationships>
-        </class>
-        <class className="NSLayoutConstraint" superclassName="NSObject">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>
-        </class>
-        <class className="PoiCell" superclassName="UITableViewCell">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/PoiCell.h"/>
-            <relationships>
-                <relationship kind="outlet" name="image" candidateClass="UIImageView"/>
-                <relationship kind="outlet" name="title" candidateClass="UILabel"/>
-            </relationships>
-        </class>
-        <class className="PointOfInterestDetailViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/PointOfInterestDetailViewController.h"/>
-            <relationships>
-                <relationship kind="action" name="openUrlOfPoi:"/>
-                <relationship kind="outlet" name="addressLabel" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="buttonUrl" candidateClass="UIButton"/>
-                <relationship kind="outlet" name="fullDescription" candidateClass="UITextView"/>
-                <relationship kind="outlet" name="scrollView" candidateClass="UIScrollView"/>
-                <relationship kind="outlet" name="shortDescription" candidateClass="UITextView"/>
-                <relationship kind="outlet" name="thumbImage" candidateClass="UIImageView"/>
-            </relationships>
-        </class>
-    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>

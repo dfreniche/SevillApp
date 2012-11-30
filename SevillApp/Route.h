@@ -22,4 +22,7 @@
 - (void) loadLocalRoutesFromFileName:(NSString *)plistFileName;
 - (NSUInteger)count;
 
+
+- (void) loadDataIntoPoiArrayUsingArray:(NSArray *)array;
+
 @end

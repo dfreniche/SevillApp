@@ -22,14 +22,7 @@
 #pragma mark - lazy getters
 
 
-- (void) loadLocalRoutesFromFileName:(NSString *)plistFileName {
-    
-    NSString* plistPath = [[NSBundle mainBundle] pathForResource:plistFileName ofType:@"plist"];
-    
-    NSArray *array = [NSArray arrayWithContentsOfFile:plistPath];
-    if (!array) {
-        return;
-    }
+- (void) loadDataIntoPoiArrayUsingArray:(NSArray *)array {
     NSMutableArray *tempPois = [[NSMutableArray alloc] initWithCapacity:[array count]];
     for (NSDictionary *d in array) {
         NSNumberFormatter * f = [[NSNumberFormatter alloc] init];
@@ -51,6 +44,17 @@
     }
     
     [self setPois:[NSArray arrayWithArray:tempPois]];
+
+}
+- (void) loadLocalRoutesFromFileName:(NSString *)plistFileName {
+    
+    NSString* plistPath = [[NSBundle mainBundle] pathForResource:plistFileName ofType:@"plist"];
+    
+    NSArray *array = [NSArray arrayWithContentsOfFile:plistPath];
+    if (!array) {
+        return;
+    }
+    [self loadDataIntoPoiArrayUsingArray:array];
 }
 
 - (NSUInteger)count {

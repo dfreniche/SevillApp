@@ -82,10 +82,26 @@
         [[segue destinationViewController] setPoi:poi];
         
         [self.tableView deselectRowAtIndexPath:indexPath animated:YES];
-        
     }
+}
+
+#define kJSON_SERVER_URL [NSURL URLWithString:@"http://localhost:4567/route?locale=ES_es"]
+
+- (IBAction)loadJsonFromServer:(id)sender {
     
-    }
+    dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0) , ^{
+        NSData* data = [NSData dataWithContentsOfURL:kJSON_SERVER_URL];
+        [self performSelectorOnMainThread:@selector(fetchedData:)
+                               withObject:data waitUntilDone:YES];
+   });
+}
 
-
+- (void)fetchedData:(NSData *)responseData {
+    //parse out the json data
+    NSError* error;
+    NSArray* json = [NSJSONSerialization JSONObjectWithData:responseData options:kNilOptions error:&error];
+    
+    [self.listOfPois loadDataIntoPoiArrayUsingArray:json];
+    [self.tableView reloadData];
+}
 @end
