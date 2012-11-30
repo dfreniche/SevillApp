@@ -58,7 +58,7 @@
 		<key>pinIconName</key>
 		<string></string>
 		<key>thumbImageName</key>
-		<string>131-tower.png</string>
+		<string>torredeloro.png</string>
 		<key>url</key>
 		<string>http://es.wikipedia.org/wiki/Giralda</string>
 	</dict>
@@ -88,7 +88,7 @@
 		<key>pinIconName</key>
 		<string></string>
 		<key>thumbImageName</key>
-		<string>131-tower.png</string>
+		<string>alcazares.png</string>
 		<key>url</key>
 		<string>http://es.wikipedia.org/wiki/Giralda</string>
 	</dict>
@@ -121,6 +121,456 @@
 		<string>jardines_murillo.png</string>
 		<key>url</key>
 		<string>http://es.wikipedia.org/wiki/Giralda</string>
+	</dict>
+	<dict>
+		<key>id</key>
+		<integer>0</integer>
+		<key>name</key>
+		<string>Archivo de Indias</string>
+		<key>shortDescription</key>
+		<string></string>
+		<key>description</key>
+		<string></string>
+		<key>photos</key>
+		<array/>
+		<key>videos</key>
+		<array/>
+		<key>latitude</key>
+		<string>37.384685</string>
+		<key>longitude</key>
+		<string>-5.993428</string>
+		<key>address</key>
+		<string>Av de Menéndez Pelayo, 6</string>
+		<key>tags</key>
+		<array>
+			<string>Monumento</string>
+		</array>
+		<key>pinIconName</key>
+		<string></string>
+		<key>thumbImageName</key>
+		<string>jardines_murillo.png</string>
+		<key>url</key>
+		<string>http://es.wikipedia.org/wiki/Giralda</string>
+	</dict>
+	<dict>
+		<key>id</key>
+		<integer>0</integer>
+		<key>name</key>
+		<string>Plaza de toros La Maestranza</string>
+		<key>shortDescription</key>
+		<string></string>
+		<key>description</key>
+		<string></string>
+		<key>photos</key>
+		<array/>
+		<key>videos</key>
+		<array/>
+		<key>latitude</key>
+		<string>37.385563</string>
+		<key>longitude</key>
+		<string>-5.999018</string>
+		<key>address</key>
+		<string>Paseo de Cristóbal Colón, 12</string>
+		<key>tags</key>
+		<array>
+			<string>Monumento</string>
+		</array>
+		<key>pinIconName</key>
+		<string></string>
+		<key>thumbImageName</key>
+		<string>maestranza.png</string>
+		<key>url</key>
+		<string>http://realmaestranza.com</string>
+	</dict>
+	<dict>
+		<key>id</key>
+		<integer>0</integer>
+		<key>name</key>
+		<string>Patio de Banderas</string>
+		<key>shortDescription</key>
+		<string>Su nombre se debe a que cuando llegaba algún rey, honrando su recibimiento se colocaban banderas en dicho lugar, aunque también puede ser debido a unas banderas ondeando al viento que en otros tiempos estaban pintadas al fresco sobre la puerta de acceso existente en la Plaza del Triunfo.</string>
+		<key>description</key>
+		<string>El Patio de Banderas, con forma de antiguo patio de vecinos, está ubicado dentro del entorno de los Reales Alcázares de Sevilla, se puede considerar plaza por sus dimensiones, ya que tiene una extensión de 1441 m². Es un lugar de paso permitiendo el acceso tanto a la Plaza del Triunfo como al Barrio de Santa Cruz (antes judería), a través del callejón de la Judería, siempre que se acceda al mismo desde la salida que tiene el Alcázar a través del apeadero (amplio zaguán utilizado como parada de carruajes y automóviles) hacia el patio. Está cercado por las altas murallas del Alcázar.</string>
+		<key>photos</key>
+		<array/>
+		<key>videos</key>
+		<array/>
+		<key>latitude</key>
+		<string>37.384493</string>
+		<key>longitude</key>
+		<string>-5.991046</string>
+		<key>address</key>
+		<string>Plaza Patio de Banderas, 11</string>
+		<key>tags</key>
+		<array>
+			<string>Monumento</string>
+		</array>
+		<key>pinIconName</key>
+		<string></string>
+		<key>thumbImageName</key>
+		<string>Patio_de_Banderas.png</string>
+		<key>url</key>
+		<string>http://es.wikipedia.org/wiki/Patio_de_Banderas</string>
+	</dict>
+	<dict>
+		<key>id</key>
+		<integer>0</integer>
+		<key>name</key>
+		<string>Patio de Banderas</string>
+		<key>shortDescription</key>
+		<string>Su nombre se debe a que cuando llegaba algún rey, honrando su recibimiento se colocaban banderas en dicho lugar, aunque también puede ser debido a unas banderas ondeando al viento que en otros tiempos estaban pintadas al fresco sobre la puerta de acceso existente en la Plaza del Triunfo.</string>
+		<key>description</key>
+		<string>El Patio de Banderas, con forma de antiguo patio de vecinos, está ubicado dentro del entorno de los Reales Alcázares de Sevilla, se puede considerar plaza por sus dimensiones, ya que tiene una extensión de 1441 m². Es un lugar de paso permitiendo el acceso tanto a la Plaza del Triunfo como al Barrio de Santa Cruz (antes judería), a través del callejón de la Judería, siempre que se acceda al mismo desde la salida que tiene el Alcázar a través del apeadero (amplio zaguán utilizado como parada de carruajes y automóviles) hacia el patio. Está cercado por las altas murallas del Alcázar.</string>
+		<key>photos</key>
+		<array/>
+		<key>videos</key>
+		<array/>
+		<key>latitude</key>
+		<string>37.384493</string>
+		<key>longitude</key>
+		<string>-5.991046</string>
+		<key>address</key>
+		<string>Plaza Patio de Banderas, 11</string>
+		<key>tags</key>
+		<array>
+			<string>Monumento</string>
+		</array>
+		<key>pinIconName</key>
+		<string></string>
+		<key>thumbImageName</key>
+		<string>Patio_de_Banderas.png</string>
+		<key>url</key>
+		<string>http://es.wikipedia.org/wiki/Patio_de_Banderas</string>
+	</dict>
+	<dict>
+		<key>id</key>
+		<integer>0</integer>
+		<key>name</key>
+		<string>Patio de Banderas</string>
+		<key>shortDescription</key>
+		<string>Su nombre se debe a que cuando llegaba algún rey, honrando su recibimiento se colocaban banderas en dicho lugar, aunque también puede ser debido a unas banderas ondeando al viento que en otros tiempos estaban pintadas al fresco sobre la puerta de acceso existente en la Plaza del Triunfo.</string>
+		<key>description</key>
+		<string>El Patio de Banderas, con forma de antiguo patio de vecinos, está ubicado dentro del entorno de los Reales Alcázares de Sevilla, se puede considerar plaza por sus dimensiones, ya que tiene una extensión de 1441 m². Es un lugar de paso permitiendo el acceso tanto a la Plaza del Triunfo como al Barrio de Santa Cruz (antes judería), a través del callejón de la Judería, siempre que se acceda al mismo desde la salida que tiene el Alcázar a través del apeadero (amplio zaguán utilizado como parada de carruajes y automóviles) hacia el patio. Está cercado por las altas murallas del Alcázar.</string>
+		<key>photos</key>
+		<array/>
+		<key>videos</key>
+		<array/>
+		<key>latitude</key>
+		<string>37.384493</string>
+		<key>longitude</key>
+		<string>-5.991046</string>
+		<key>address</key>
+		<string>Plaza Patio de Banderas, 11</string>
+		<key>tags</key>
+		<array>
+			<string>Monumento</string>
+		</array>
+		<key>pinIconName</key>
+		<string></string>
+		<key>thumbImageName</key>
+		<string>Patio_de_Banderas.png</string>
+		<key>url</key>
+		<string>http://es.wikipedia.org/wiki/Patio_de_Banderas</string>
+	</dict>
+	<dict>
+		<key>id</key>
+		<integer>0</integer>
+		<key>name</key>
+		<string>Patio de Banderas</string>
+		<key>shortDescription</key>
+		<string>Su nombre se debe a que cuando llegaba algún rey, honrando su recibimiento se colocaban banderas en dicho lugar, aunque también puede ser debido a unas banderas ondeando al viento que en otros tiempos estaban pintadas al fresco sobre la puerta de acceso existente en la Plaza del Triunfo.</string>
+		<key>description</key>
+		<string>El Patio de Banderas, con forma de antiguo patio de vecinos, está ubicado dentro del entorno de los Reales Alcázares de Sevilla, se puede considerar plaza por sus dimensiones, ya que tiene una extensión de 1441 m². Es un lugar de paso permitiendo el acceso tanto a la Plaza del Triunfo como al Barrio de Santa Cruz (antes judería), a través del callejón de la Judería, siempre que se acceda al mismo desde la salida que tiene el Alcázar a través del apeadero (amplio zaguán utilizado como parada de carruajes y automóviles) hacia el patio. Está cercado por las altas murallas del Alcázar.</string>
+		<key>photos</key>
+		<array/>
+		<key>videos</key>
+		<array/>
+		<key>latitude</key>
+		<string>37.384493</string>
+		<key>longitude</key>
+		<string>-5.991046</string>
+		<key>address</key>
+		<string>Plaza Patio de Banderas, 11</string>
+		<key>tags</key>
+		<array>
+			<string>Monumento</string>
+		</array>
+		<key>pinIconName</key>
+		<string></string>
+		<key>thumbImageName</key>
+		<string>Patio_de_Banderas.png</string>
+		<key>url</key>
+		<string>http://es.wikipedia.org/wiki/Patio_de_Banderas</string>
+	</dict>
+	<dict>
+		<key>id</key>
+		<integer>0</integer>
+		<key>name</key>
+		<string>Patio de Banderas</string>
+		<key>shortDescription</key>
+		<string>Su nombre se debe a que cuando llegaba algún rey, honrando su recibimiento se colocaban banderas en dicho lugar, aunque también puede ser debido a unas banderas ondeando al viento que en otros tiempos estaban pintadas al fresco sobre la puerta de acceso existente en la Plaza del Triunfo.</string>
+		<key>description</key>
+		<string>El Patio de Banderas, con forma de antiguo patio de vecinos, está ubicado dentro del entorno de los Reales Alcázares de Sevilla, se puede considerar plaza por sus dimensiones, ya que tiene una extensión de 1441 m². Es un lugar de paso permitiendo el acceso tanto a la Plaza del Triunfo como al Barrio de Santa Cruz (antes judería), a través del callejón de la Judería, siempre que se acceda al mismo desde la salida que tiene el Alcázar a través del apeadero (amplio zaguán utilizado como parada de carruajes y automóviles) hacia el patio. Está cercado por las altas murallas del Alcázar.</string>
+		<key>photos</key>
+		<array/>
+		<key>videos</key>
+		<array/>
+		<key>latitude</key>
+		<string>37.384493</string>
+		<key>longitude</key>
+		<string>-5.991046</string>
+		<key>address</key>
+		<string>Plaza Patio de Banderas, 11</string>
+		<key>tags</key>
+		<array>
+			<string>Monumento</string>
+		</array>
+		<key>pinIconName</key>
+		<string></string>
+		<key>thumbImageName</key>
+		<string>Patio_de_Banderas.png</string>
+		<key>url</key>
+		<string>http://es.wikipedia.org/wiki/Patio_de_Banderas</string>
+	</dict>
+	<dict>
+		<key>id</key>
+		<integer>0</integer>
+		<key>name</key>
+		<string>Patio de Banderas</string>
+		<key>shortDescription</key>
+		<string>Su nombre se debe a que cuando llegaba algún rey, honrando su recibimiento se colocaban banderas en dicho lugar, aunque también puede ser debido a unas banderas ondeando al viento que en otros tiempos estaban pintadas al fresco sobre la puerta de acceso existente en la Plaza del Triunfo.</string>
+		<key>description</key>
+		<string>El Patio de Banderas, con forma de antiguo patio de vecinos, está ubicado dentro del entorno de los Reales Alcázares de Sevilla, se puede considerar plaza por sus dimensiones, ya que tiene una extensión de 1441 m². Es un lugar de paso permitiendo el acceso tanto a la Plaza del Triunfo como al Barrio de Santa Cruz (antes judería), a través del callejón de la Judería, siempre que se acceda al mismo desde la salida que tiene el Alcázar a través del apeadero (amplio zaguán utilizado como parada de carruajes y automóviles) hacia el patio. Está cercado por las altas murallas del Alcázar.</string>
+		<key>photos</key>
+		<array/>
+		<key>videos</key>
+		<array/>
+		<key>latitude</key>
+		<string>37.384493</string>
+		<key>longitude</key>
+		<string>-5.991046</string>
+		<key>address</key>
+		<string>Plaza Patio de Banderas, 11</string>
+		<key>tags</key>
+		<array>
+			<string>Monumento</string>
+		</array>
+		<key>pinIconName</key>
+		<string></string>
+		<key>thumbImageName</key>
+		<string>Patio_de_Banderas.png</string>
+		<key>url</key>
+		<string>http://es.wikipedia.org/wiki/Patio_de_Banderas</string>
+	</dict>
+	<dict>
+		<key>id</key>
+		<integer>0</integer>
+		<key>name</key>
+		<string>Patio de Banderas</string>
+		<key>shortDescription</key>
+		<string>Su nombre se debe a que cuando llegaba algún rey, honrando su recibimiento se colocaban banderas en dicho lugar, aunque también puede ser debido a unas banderas ondeando al viento que en otros tiempos estaban pintadas al fresco sobre la puerta de acceso existente en la Plaza del Triunfo.</string>
+		<key>description</key>
+		<string>El Patio de Banderas, con forma de antiguo patio de vecinos, está ubicado dentro del entorno de los Reales Alcázares de Sevilla, se puede considerar plaza por sus dimensiones, ya que tiene una extensión de 1441 m². Es un lugar de paso permitiendo el acceso tanto a la Plaza del Triunfo como al Barrio de Santa Cruz (antes judería), a través del callejón de la Judería, siempre que se acceda al mismo desde la salida que tiene el Alcázar a través del apeadero (amplio zaguán utilizado como parada de carruajes y automóviles) hacia el patio. Está cercado por las altas murallas del Alcázar.</string>
+		<key>photos</key>
+		<array/>
+		<key>videos</key>
+		<array/>
+		<key>latitude</key>
+		<string>37.384493</string>
+		<key>longitude</key>
+		<string>-5.991046</string>
+		<key>address</key>
+		<string>Plaza Patio de Banderas, 11</string>
+		<key>tags</key>
+		<array>
+			<string>Monumento</string>
+		</array>
+		<key>pinIconName</key>
+		<string></string>
+		<key>thumbImageName</key>
+		<string>Patio_de_Banderas.png</string>
+		<key>url</key>
+		<string>http://es.wikipedia.org/wiki/Patio_de_Banderas</string>
+	</dict>
+	<dict>
+		<key>id</key>
+		<integer>0</integer>
+		<key>name</key>
+		<string>Patio de Banderas</string>
+		<key>shortDescription</key>
+		<string>Su nombre se debe a que cuando llegaba algún rey, honrando su recibimiento se colocaban banderas en dicho lugar, aunque también puede ser debido a unas banderas ondeando al viento que en otros tiempos estaban pintadas al fresco sobre la puerta de acceso existente en la Plaza del Triunfo.</string>
+		<key>description</key>
+		<string>El Patio de Banderas, con forma de antiguo patio de vecinos, está ubicado dentro del entorno de los Reales Alcázares de Sevilla, se puede considerar plaza por sus dimensiones, ya que tiene una extensión de 1441 m². Es un lugar de paso permitiendo el acceso tanto a la Plaza del Triunfo como al Barrio de Santa Cruz (antes judería), a través del callejón de la Judería, siempre que se acceda al mismo desde la salida que tiene el Alcázar a través del apeadero (amplio zaguán utilizado como parada de carruajes y automóviles) hacia el patio. Está cercado por las altas murallas del Alcázar.</string>
+		<key>photos</key>
+		<array/>
+		<key>videos</key>
+		<array/>
+		<key>latitude</key>
+		<string>37.384493</string>
+		<key>longitude</key>
+		<string>-5.991046</string>
+		<key>address</key>
+		<string>Plaza Patio de Banderas, 11</string>
+		<key>tags</key>
+		<array>
+			<string>Monumento</string>
+		</array>
+		<key>pinIconName</key>
+		<string></string>
+		<key>thumbImageName</key>
+		<string>Patio_de_Banderas.png</string>
+		<key>url</key>
+		<string>http://es.wikipedia.org/wiki/Patio_de_Banderas</string>
+	</dict>
+	<dict>
+		<key>id</key>
+		<integer>0</integer>
+		<key>name</key>
+		<string>Patio de Banderas</string>
+		<key>shortDescription</key>
+		<string>Su nombre se debe a que cuando llegaba algún rey, honrando su recibimiento se colocaban banderas en dicho lugar, aunque también puede ser debido a unas banderas ondeando al viento que en otros tiempos estaban pintadas al fresco sobre la puerta de acceso existente en la Plaza del Triunfo.</string>
+		<key>description</key>
+		<string>El Patio de Banderas, con forma de antiguo patio de vecinos, está ubicado dentro del entorno de los Reales Alcázares de Sevilla, se puede considerar plaza por sus dimensiones, ya que tiene una extensión de 1441 m². Es un lugar de paso permitiendo el acceso tanto a la Plaza del Triunfo como al Barrio de Santa Cruz (antes judería), a través del callejón de la Judería, siempre que se acceda al mismo desde la salida que tiene el Alcázar a través del apeadero (amplio zaguán utilizado como parada de carruajes y automóviles) hacia el patio. Está cercado por las altas murallas del Alcázar.</string>
+		<key>photos</key>
+		<array/>
+		<key>videos</key>
+		<array/>
+		<key>latitude</key>
+		<string>37.384493</string>
+		<key>longitude</key>
+		<string>-5.991046</string>
+		<key>address</key>
+		<string>Plaza Patio de Banderas, 11</string>
+		<key>tags</key>
+		<array>
+			<string>Monumento</string>
+		</array>
+		<key>pinIconName</key>
+		<string></string>
+		<key>thumbImageName</key>
+		<string>Patio_de_Banderas.png</string>
+		<key>url</key>
+		<string>http://es.wikipedia.org/wiki/Patio_de_Banderas</string>
+	</dict>
+	<dict>
+		<key>id</key>
+		<integer>0</integer>
+		<key>name</key>
+		<string>Patio de Banderas</string>
+		<key>shortDescription</key>
+		<string>Su nombre se debe a que cuando llegaba algún rey, honrando su recibimiento se colocaban banderas en dicho lugar, aunque también puede ser debido a unas banderas ondeando al viento que en otros tiempos estaban pintadas al fresco sobre la puerta de acceso existente en la Plaza del Triunfo.</string>
+		<key>description</key>
+		<string>El Patio de Banderas, con forma de antiguo patio de vecinos, está ubicado dentro del entorno de los Reales Alcázares de Sevilla, se puede considerar plaza por sus dimensiones, ya que tiene una extensión de 1441 m². Es un lugar de paso permitiendo el acceso tanto a la Plaza del Triunfo como al Barrio de Santa Cruz (antes judería), a través del callejón de la Judería, siempre que se acceda al mismo desde la salida que tiene el Alcázar a través del apeadero (amplio zaguán utilizado como parada de carruajes y automóviles) hacia el patio. Está cercado por las altas murallas del Alcázar.</string>
+		<key>photos</key>
+		<array/>
+		<key>videos</key>
+		<array/>
+		<key>latitude</key>
+		<string>37.384493</string>
+		<key>longitude</key>
+		<string>-5.991046</string>
+		<key>address</key>
+		<string>Plaza Patio de Banderas, 11</string>
+		<key>tags</key>
+		<array>
+			<string>Monumento</string>
+		</array>
+		<key>pinIconName</key>
+		<string></string>
+		<key>thumbImageName</key>
+		<string>Patio_de_Banderas.png</string>
+		<key>url</key>
+		<string>http://es.wikipedia.org/wiki/Patio_de_Banderas</string>
+	</dict>
+	<dict>
+		<key>id</key>
+		<integer>0</integer>
+		<key>name</key>
+		<string>Patio de Banderas</string>
+		<key>shortDescription</key>
+		<string>Su nombre se debe a que cuando llegaba algún rey, honrando su recibimiento se colocaban banderas en dicho lugar, aunque también puede ser debido a unas banderas ondeando al viento que en otros tiempos estaban pintadas al fresco sobre la puerta de acceso existente en la Plaza del Triunfo.</string>
+		<key>description</key>
+		<string>El Patio de Banderas, con forma de antiguo patio de vecinos, está ubicado dentro del entorno de los Reales Alcázares de Sevilla, se puede considerar plaza por sus dimensiones, ya que tiene una extensión de 1441 m². Es un lugar de paso permitiendo el acceso tanto a la Plaza del Triunfo como al Barrio de Santa Cruz (antes judería), a través del callejón de la Judería, siempre que se acceda al mismo desde la salida que tiene el Alcázar a través del apeadero (amplio zaguán utilizado como parada de carruajes y automóviles) hacia el patio. Está cercado por las altas murallas del Alcázar.</string>
+		<key>photos</key>
+		<array/>
+		<key>videos</key>
+		<array/>
+		<key>latitude</key>
+		<string>37.384493</string>
+		<key>longitude</key>
+		<string>-5.991046</string>
+		<key>address</key>
+		<string>Plaza Patio de Banderas, 11</string>
+		<key>tags</key>
+		<array>
+			<string>Monumento</string>
+		</array>
+		<key>pinIconName</key>
+		<string></string>
+		<key>thumbImageName</key>
+		<string>Patio_de_Banderas.png</string>
+		<key>url</key>
+		<string>http://es.wikipedia.org/wiki/Patio_de_Banderas</string>
+	</dict>
+	<dict>
+		<key>id</key>
+		<integer>0</integer>
+		<key>name</key>
+		<string>Patio de Banderas</string>
+		<key>shortDescription</key>
+		<string>Su nombre se debe a que cuando llegaba algún rey, honrando su recibimiento se colocaban banderas en dicho lugar, aunque también puede ser debido a unas banderas ondeando al viento que en otros tiempos estaban pintadas al fresco sobre la puerta de acceso existente en la Plaza del Triunfo.</string>
+		<key>description</key>
+		<string>El Patio de Banderas, con forma de antiguo patio de vecinos, está ubicado dentro del entorno de los Reales Alcázares de Sevilla, se puede considerar plaza por sus dimensiones, ya que tiene una extensión de 1441 m². Es un lugar de paso permitiendo el acceso tanto a la Plaza del Triunfo como al Barrio de Santa Cruz (antes judería), a través del callejón de la Judería, siempre que se acceda al mismo desde la salida que tiene el Alcázar a través del apeadero (amplio zaguán utilizado como parada de carruajes y automóviles) hacia el patio. Está cercado por las altas murallas del Alcázar.</string>
+		<key>photos</key>
+		<array/>
+		<key>videos</key>
+		<array/>
+		<key>latitude</key>
+		<string>37.384493</string>
+		<key>longitude</key>
+		<string>-5.991046</string>
+		<key>address</key>
+		<string>Plaza Patio de Banderas, 11</string>
+		<key>tags</key>
+		<array>
+			<string>Monumento</string>
+		</array>
+		<key>pinIconName</key>
+		<string></string>
+		<key>thumbImageName</key>
+		<string>Patio_de_Banderas.png</string>
+		<key>url</key>
+		<string>http://es.wikipedia.org/wiki/Patio_de_Banderas</string>
+	</dict>
+	<dict>
+		<key>id</key>
+		<integer>0</integer>
+		<key>name</key>
+		<string>Patio de Banderas</string>
+		<key>shortDescription</key>
+		<string>Su nombre se debe a que cuando llegaba algún rey, honrando su recibimiento se colocaban banderas en dicho lugar, aunque también puede ser debido a unas banderas ondeando al viento que en otros tiempos estaban pintadas al fresco sobre la puerta de acceso existente en la Plaza del Triunfo.</string>
+		<key>description</key>
+		<string>El Patio de Banderas, con forma de antiguo patio de vecinos, está ubicado dentro del entorno de los Reales Alcázares de Sevilla, se puede considerar plaza por sus dimensiones, ya que tiene una extensión de 1441 m². Es un lugar de paso permitiendo el acceso tanto a la Plaza del Triunfo como al Barrio de Santa Cruz (antes judería), a través del callejón de la Judería, siempre que se acceda al mismo desde la salida que tiene el Alcázar a través del apeadero (amplio zaguán utilizado como parada de carruajes y automóviles) hacia el patio. Está cercado por las altas murallas del Alcázar.</string>
+		<key>photos</key>
+		<array/>
+		<key>videos</key>
+		<array/>
+		<key>latitude</key>
+		<string>37.384493</string>
+		<key>longitude</key>
+		<string>-5.991046</string>
+		<key>address</key>
+		<string>Plaza Patio de Banderas, 11</string>
+		<key>tags</key>
+		<array>
+			<string>Monumento</string>
+		</array>
+		<key>pinIconName</key>
+		<string></string>
+		<key>thumbImageName</key>
+		<string>Patio_de_Banderas.png</string>
+		<key>url</key>
+		<string>http://es.wikipedia.org/wiki/Patio_de_Banderas</string>
 	</dict>
 </array>
 </plist>
