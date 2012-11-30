@@ -15,7 +15,12 @@
 @property (weak, nonatomic) IBOutlet UIImageView *thumbImage;
 @property (weak, nonatomic) IBOutlet UITextView *shortDescription;
 @property (weak, nonatomic) IBOutlet UITextView *fullDescription;
+@property (weak, nonatomic) IBOutlet UILabel *addressLabel;
+@property (weak, nonatomic) IBOutlet UIButton *buttonUrl;
 
 @property (weak, nonatomic) PointOfInterest *poi;
+
+
+- (IBAction)openUrlOfPoi:(id)sender;
 
 @end

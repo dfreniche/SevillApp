@@ -66,7 +66,7 @@
                             <constraint firstItem="2bq-21-gn3" firstAttribute="leading" secondItem="HYY-vM-Kso" secondAttribute="leading" type="default" id="dgU-h1-fJD"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="EGO-ik-pR5"/>
+                    <navigationItem key="navigationItem" title="Monuments" id="EGO-ik-pR5"/>
                     <connections>
                         <outlet property="tableView" destination="2bq-21-gn3" id="YFX-o8-HZH"/>
                     </connections>
@@ -80,7 +80,7 @@
             <objects>
                 <viewController id="od9-9w-M9o" customClass="PointOfInterestDetailViewController" sceneMemberID="viewController">
                     <scrollView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" id="Pm6-Fu-FgG">
-                        <rect key="frame" x="0.0" y="64" width="320" height="910"/>
+                        <rect key="frame" x="0.0" y="64" width="320" height="734"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xb4-ji-RkW">
@@ -89,6 +89,14 @@
                                     <constraint firstAttribute="width" constant="135" id="U4f-r0-4vH"/>
                                 </constraints>
                             </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hU7-ff-1Qa">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="274" id="6rI-LX-tOb"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rco-VO-NOI">
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
@@ -113,7 +121,7 @@
                                     <constraint firstAttribute="width" constant="230" id="8KC-dP-tEk"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                <state key="normal" title="Button">
+                                <state key="normal" title="Photos">
                                     <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -134,28 +142,45 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                             </button>
+                            <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="tailTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0S3-1o-TDI">
+                                <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="12"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="openUrlOfPoi:" destination="od9-9w-M9o" eventType="touchUpInside" id="KLe-b3-7Pe"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="Hsl-JC-mkT" firstAttribute="top" secondItem="Pm6-Fu-FgG" secondAttribute="top" constant="253" id="450-cv-xjd"/>
+                            <constraint firstItem="hU7-ff-1Qa" firstAttribute="top" secondItem="Pm6-Fu-FgG" secondAttribute="top" constant="193" id="2He-2O-Ua0"/>
+                            <constraint firstItem="qNi-Ug-xBB" firstAttribute="top" secondItem="Pm6-Fu-FgG" secondAttribute="top" constant="554" id="4QC-6w-bi9"/>
                             <constraint firstItem="Hsl-JC-mkT" firstAttribute="centerX" secondItem="2uH-N7-Ec2" secondAttribute="centerX" type="default" id="6Au-aj-ejH"/>
                             <constraint firstItem="qNi-Ug-xBB" firstAttribute="trailing" secondItem="2uH-N7-Ec2" secondAttribute="trailing" type="default" id="8iK-Rt-XzN"/>
                             <constraint firstItem="2uH-N7-Ec2" firstAttribute="leading" secondItem="qNi-Ug-xBB" secondAttribute="leading" type="default" id="9pd-AS-4G0"/>
                             <constraint firstItem="xb4-ji-RkW" firstAttribute="leading" secondItem="Pm6-Fu-FgG" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="BoK-6P-uB0"/>
-                            <constraint firstItem="qNi-Ug-xBB" firstAttribute="top" secondItem="Pm6-Fu-FgG" secondAttribute="top" constant="674" id="K6q-zL-cOQ"/>
-                            <constraint firstItem="xb4-ji-RkW" firstAttribute="top" secondItem="Pm6-Fu-FgG" secondAttribute="top" constant="27" id="Rh6-p2-Lgs"/>
-                            <constraint firstItem="xb4-ji-RkW" firstAttribute="top" secondItem="rco-VO-NOI" secondAttribute="top" type="default" id="XuL-7h-zXI"/>
+                            <constraint firstItem="0S3-1o-TDI" firstAttribute="top" secondItem="Pm6-Fu-FgG" secondAttribute="top" constant="620" id="Bzx-4p-sq5"/>
+                            <constraint firstAttribute="trailing" secondItem="hU7-ff-1Qa" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="Dt7-Gm-CXJ"/>
+                            <constraint firstItem="0S3-1o-TDI" firstAttribute="leading" secondItem="qNi-Ug-xBB" secondAttribute="leading" type="default" id="Eey-VI-SHj"/>
+                            <constraint firstItem="Hsl-JC-mkT" firstAttribute="top" secondItem="Pm6-Fu-FgG" secondAttribute="top" constant="239" id="KBE-jv-75k"/>
+                            <constraint firstItem="2uH-N7-Ec2" firstAttribute="top" secondItem="Pm6-Fu-FgG" secondAttribute="top" constant="491" id="VYj-3R-Q48"/>
+                            <constraint firstItem="0S3-1o-TDI" firstAttribute="trailing" secondItem="qNi-Ug-xBB" secondAttribute="trailing" type="default" id="by4-hN-tV1"/>
                             <constraint firstItem="Hsl-JC-mkT" firstAttribute="leading" secondItem="Pm6-Fu-FgG" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="cOW-91-ZV9"/>
-                            <constraint firstItem="2uH-N7-Ec2" firstAttribute="centerX" secondItem="Pm6-Fu-FgG" secondAttribute="centerX" type="default" id="fE2-pn-NRf"/>
+                            <constraint firstItem="xb4-ji-RkW" firstAttribute="top" secondItem="Pm6-Fu-FgG" secondAttribute="top" constant="21" id="cqz-fi-1rn"/>
+                            <constraint firstItem="rco-VO-NOI" firstAttribute="top" secondItem="Pm6-Fu-FgG" secondAttribute="top" constant="20" symbolic="YES" type="default" id="d07-ht-JW7"/>
                             <constraint firstAttribute="trailing" secondItem="Hsl-JC-mkT" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="fOJ-xf-deh"/>
-                            <constraint firstItem="2uH-N7-Ec2" firstAttribute="top" secondItem="Pm6-Fu-FgG" secondAttribute="top" constant="617" id="kfm-MX-0aS"/>
+                            <constraint firstAttribute="bottom" secondItem="0S3-1o-TDI" secondAttribute="bottom" constant="71" id="hm9-tD-WDd"/>
+                            <constraint firstItem="0S3-1o-TDI" firstAttribute="centerX" secondItem="Pm6-Fu-FgG" secondAttribute="centerX" type="default" id="qBu-P4-N8g"/>
                             <constraint firstItem="rco-VO-NOI" firstAttribute="leading" secondItem="Pm6-Fu-FgG" secondAttribute="leading" constant="169" id="rOa-IB-vdA"/>
-                            <constraint firstAttribute="bottom" secondItem="qNi-Ug-xBB" secondAttribute="bottom" constant="193" id="xf5-ZU-BXg"/>
                         </constraints>
                     </scrollView>
                     <navigationItem key="navigationItem" id="OIX-ps-CrC"/>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
                     <connections>
+                        <outlet property="addressLabel" destination="hU7-ff-1Qa" id="ase-6i-fFU"/>
+                        <outlet property="buttonUrl" destination="0S3-1o-TDI" id="4eW-Cf-T8W"/>
                         <outlet property="fullDescription" destination="Hsl-JC-mkT" id="aJa-OZ-6Xf"/>
                         <outlet property="scrollView" destination="Pm6-Fu-FgG" id="awd-re-j8T"/>
                         <outlet property="shortDescription" destination="rco-VO-NOI" id="t0N-9M-Enx"/>
@@ -171,11 +196,12 @@
             <objects>
                 <viewController id="j5X-BL-CC1" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="rPg-5C-a9h">
-                        <rect key="frame" x="0.0" y="64" width="320" height="797"/>
+                        <rect key="frame" x="0.0" y="64" width="320" height="455"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="5vr-jS-Zy4"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Cd1-kh-Ewe" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -294,6 +320,7 @@
         <class className="MapViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/MapViewController.h"/>
             <relationships>
+                <relationship kind="action" name="centerMap:"/>
                 <relationship kind="outlet" name="map" candidateClass="MKMapView"/>
             </relationships>
         </class>
@@ -310,6 +337,9 @@
         <class className="PointOfInterestDetailViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/PointOfInterestDetailViewController.h"/>
             <relationships>
+                <relationship kind="action" name="openUrlOfPoi:"/>
+                <relationship kind="outlet" name="addressLabel" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="buttonUrl" candidateClass="UIButton"/>
                 <relationship kind="outlet" name="fullDescription" candidateClass="UITextView"/>
                 <relationship kind="outlet" name="scrollView" candidateClass="UIScrollView"/>
                 <relationship kind="outlet" name="shortDescription" candidateClass="UITextView"/>

@@ -44,7 +44,9 @@
                                                         latitude:lat
                                                        longitude:longit];
         [p setPhotos:[NSMutableArray arrayWithArray:photos]];
+        [p setAddress:[d objectForKey:@"address"]];
         [p setThumbImageName:[d objectForKey:@"thumbImageName"]];
+        [p setUrl:[d objectForKey:@"url"]];
         [tempPois addObject:p];
     }
     

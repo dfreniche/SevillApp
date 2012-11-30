@@ -15,6 +15,10 @@
 		990C045816648675004BF85E /* Route.m in Sources */ = {isa = PBXBuildFile; fileRef = 990C045716648675004BF85E /* Route.m */; };
 		990C045916648675004BF85E /* Route.m in Sources */ = {isa = PBXBuildFile; fileRef = 990C045716648675004BF85E /* Route.m */; };
 		990C045B16649059004BF85E /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 990C045A16649059004BF85E /* MapKit.framework */; };
+		991E283B1668A31E00907E9A /* maestranza.png in Resources */ = {isa = PBXBuildFile; fileRef = 991E283A1668A31E00907E9A /* maestranza.png */; };
+		991E283D1668A3F600907E9A /* Patio_de_Banderas.png in Resources */ = {isa = PBXBuildFile; fileRef = 991E283C1668A3F600907E9A /* Patio_de_Banderas.png */; };
+		991E28401668B39900907E9A /* alcazares.png in Resources */ = {isa = PBXBuildFile; fileRef = 991E283E1668B39900907E9A /* alcazares.png */; };
+		991E28411668B39900907E9A /* torredeloro.png in Resources */ = {isa = PBXBuildFile; fileRef = 991E283F1668B39900907E9A /* torredeloro.png */; };
 		99250AE21666811D006B008D /* PointOfInterestDataTest.plist in Resources */ = {isa = PBXBuildFile; fileRef = 995F64331665EFF8005B835D /* PointOfInterestDataTest.plist */; };
 		99250AE61666870A006B008D /* PoiCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 99250AE51666870A006B008D /* PoiCell.m */; };
 		995F64311665E541005B835D /* RouteTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 995F64301665E541005B835D /* RouteTests.m */; };
@@ -64,6 +68,10 @@
 		990C045616648675004BF85E /* Route.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Route.h; sourceTree = "<group>"; };
 		990C045716648675004BF85E /* Route.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Route.m; sourceTree = "<group>"; };
 		990C045A16649059004BF85E /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		991E283A1668A31E00907E9A /* maestranza.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = maestranza.png; sourceTree = "<group>"; };
+		991E283C1668A3F600907E9A /* Patio_de_Banderas.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Patio_de_Banderas.png; sourceTree = "<group>"; };
+		991E283E1668B39900907E9A /* alcazares.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = alcazares.png; sourceTree = "<group>"; };
+		991E283F1668B39900907E9A /* torredeloro.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = torredeloro.png; sourceTree = "<group>"; };
 		99250AE41666870A006B008D /* PoiCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PoiCell.h; sourceTree = "<group>"; };
 		99250AE51666870A006B008D /* PoiCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PoiCell.m; sourceTree = "<group>"; };
 		995F642F1665E541005B835D /* RouteTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RouteTests.h; sourceTree = "<group>"; };
@@ -134,6 +142,10 @@
 		9903AD6916673E7D002BE4FB /* thumbs */ = {
 			isa = PBXGroup;
 			children = (
+				991E283E1668B39900907E9A /* alcazares.png */,
+				991E283F1668B39900907E9A /* torredeloro.png */,
+				991E283C1668A3F600907E9A /* Patio_de_Banderas.png */,
+				991E283A1668A31E00907E9A /* maestranza.png */,
 				9903AD6416673E74002BE4FB /* giralda.png */,
 				9903AD6516673E74002BE4FB /* jardines_murillo.png */,
 			);
@@ -364,6 +376,10 @@
 				9975A77716666DEA00DC1AE9 /* 131-tower.png in Resources */,
 				9903AD6616673E74002BE4FB /* giralda.png in Resources */,
 				9903AD6716673E74002BE4FB /* jardines_murillo.png in Resources */,
+				991E283B1668A31E00907E9A /* maestranza.png in Resources */,
+				991E283D1668A3F600907E9A /* Patio_de_Banderas.png in Resources */,
+				991E28401668B39900907E9A /* alcazares.png in Resources */,
+				991E28411668B39900907E9A /* torredeloro.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

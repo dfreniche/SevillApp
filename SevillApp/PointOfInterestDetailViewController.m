@@ -27,7 +27,7 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
-    [self.scrollView setContentSize:CGSizeMake(320, 455)];
+    [self.scrollView setContentSize:CGSizeMake(320, 367)];
 }
 
 - (void)didReceiveMemoryWarning
@@ -37,10 +37,18 @@
 }
 
 - (void)viewWillAppear:(BOOL)animated {
+    // if we have POI set, refresh all data on screen
     if (self.poi) {
         self.title = self.poi.name;
+        self.shortDescription.text = self.poi.shortDescription;
+        self.fullDescription.text = self.poi.description;
         self.thumbImage.image = [UIImage imageNamed:self.poi.thumbImageName];
+        self.addressLabel.text = self.poi.address;
+        self.buttonUrl.titleLabel.text = self.poi.url;
     }
+    [self.scrollView setContentOffset:CGPointZero];
 }
 
+- (IBAction)openUrlOfPoi:(id)sender {
+}
 @end
