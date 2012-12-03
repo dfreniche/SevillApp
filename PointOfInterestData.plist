@@ -102,7 +102,10 @@
 		<key>description</key>
 		<string></string>
 		<key>photos</key>
-		<array/>
+		<array>
+			<string>jardines_murillo.png</string>
+			<string>alcazares.png</string>
+		</array>
 		<key>videos</key>
 		<array/>
 		<key>latitude</key>

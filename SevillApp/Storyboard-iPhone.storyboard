@@ -135,18 +135,8 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="j5X-BL-CC1" kind="push" id="lfN-2c-gmJ"/>
+                                    <action selector="showPhotos:" destination="od9-9w-M9o" eventType="touchUpInside" id="eA4-kU-ydN"/>
                                 </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qNi-Ug-xBB">
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                <state key="normal" title="Button">
-                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <state key="highlighted">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
                             </button>
                             <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="tailTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0S3-1o-TDI">
                                 <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="12"/>
@@ -162,17 +152,14 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="hU7-ff-1Qa" firstAttribute="top" secondItem="Pm6-Fu-FgG" secondAttribute="top" constant="193" id="2He-2O-Ua0"/>
-                            <constraint firstItem="qNi-Ug-xBB" firstAttribute="top" secondItem="Pm6-Fu-FgG" secondAttribute="top" constant="554" id="4QC-6w-bi9"/>
                             <constraint firstItem="Hsl-JC-mkT" firstAttribute="centerX" secondItem="2uH-N7-Ec2" secondAttribute="centerX" type="default" id="6Au-aj-ejH"/>
-                            <constraint firstItem="qNi-Ug-xBB" firstAttribute="trailing" secondItem="2uH-N7-Ec2" secondAttribute="trailing" type="default" id="8iK-Rt-XzN"/>
-                            <constraint firstItem="2uH-N7-Ec2" firstAttribute="leading" secondItem="qNi-Ug-xBB" secondAttribute="leading" type="default" id="9pd-AS-4G0"/>
                             <constraint firstItem="xb4-ji-RkW" firstAttribute="leading" secondItem="Pm6-Fu-FgG" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="BoK-6P-uB0"/>
                             <constraint firstItem="0S3-1o-TDI" firstAttribute="top" secondItem="Pm6-Fu-FgG" secondAttribute="top" constant="620" id="Bzx-4p-sq5"/>
                             <constraint firstAttribute="trailing" secondItem="hU7-ff-1Qa" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="Dt7-Gm-CXJ"/>
-                            <constraint firstItem="0S3-1o-TDI" firstAttribute="leading" secondItem="qNi-Ug-xBB" secondAttribute="leading" type="default" id="Eey-VI-SHj"/>
                             <constraint firstItem="Hsl-JC-mkT" firstAttribute="top" secondItem="Pm6-Fu-FgG" secondAttribute="top" constant="239" id="KBE-jv-75k"/>
+                            <constraint firstItem="2uH-N7-Ec2" firstAttribute="leading" secondItem="0S3-1o-TDI" secondAttribute="leading" type="default" id="QJM-d9-Ejn"/>
+                            <constraint firstItem="2uH-N7-Ec2" firstAttribute="trailing" secondItem="0S3-1o-TDI" secondAttribute="trailing" type="default" id="T1H-bT-oox"/>
                             <constraint firstItem="2uH-N7-Ec2" firstAttribute="top" secondItem="Pm6-Fu-FgG" secondAttribute="top" constant="491" id="VYj-3R-Q48"/>
-                            <constraint firstItem="0S3-1o-TDI" firstAttribute="trailing" secondItem="qNi-Ug-xBB" secondAttribute="trailing" type="default" id="by4-hN-tV1"/>
                             <constraint firstItem="Hsl-JC-mkT" firstAttribute="leading" secondItem="Pm6-Fu-FgG" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="cOW-91-ZV9"/>
                             <constraint firstItem="xb4-ji-RkW" firstAttribute="top" secondItem="Pm6-Fu-FgG" secondAttribute="top" constant="21" id="cqz-fi-1rn"/>
                             <constraint firstItem="rco-VO-NOI" firstAttribute="top" secondItem="Pm6-Fu-FgG" secondAttribute="top" constant="20" symbolic="YES" type="default" id="d07-ht-JW7"/>
@@ -196,22 +183,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DzS-2L-kGe" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1992" y="-332"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="Tzp-oF-pN5">
-            <objects>
-                <viewController id="j5X-BL-CC1" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="rPg-5C-a9h">
-                        <rect key="frame" x="0.0" y="64" width="320" height="455"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="5vr-jS-Zy4"/>
-                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Cd1-kh-Ewe" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="2415" y="-256"/>
         </scene>
         <!--Map View Controller-->
         <scene sceneID="3Bu-1h-UAI">
@@ -366,51 +337,6 @@
         <image name="131-tower.png" width="15" height="24"/>
         <image name="90-life-buoy.png" width="24" height="24"/>
     </resources>
-    <classes>
-        <class className="AboutViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/AboutViewController.h"/>
-            <relationships>
-                <relationship kind="outlet" name="helpText" candidateClass="UIWebView"/>
-                <relationship kind="outlet" name="version" candidateClass="UILabel"/>
-            </relationships>
-        </class>
-        <class className="ListOfPoisViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/ListOfPoisViewController.h"/>
-            <relationships>
-                <relationship kind="action" name="loadJsonFromServer:"/>
-                <relationship kind="outlet" name="tableView" candidateClass="UITableView"/>
-            </relationships>
-        </class>
-        <class className="MapViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/MapViewController.h"/>
-            <relationships>
-                <relationship kind="action" name="centerMap:"/>
-                <relationship kind="outlet" name="map" candidateClass="MKMapView"/>
-            </relationships>
-        </class>
-        <class className="NSLayoutConstraint" superclassName="NSObject">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>
-        </class>
-        <class className="PoiCell" superclassName="UITableViewCell">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/PoiCell.h"/>
-            <relationships>
-                <relationship kind="outlet" name="image" candidateClass="UIImageView"/>
-                <relationship kind="outlet" name="title" candidateClass="UILabel"/>
-            </relationships>
-        </class>
-        <class className="PointOfInterestDetailViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/PointOfInterestDetailViewController.h"/>
-            <relationships>
-                <relationship kind="action" name="openUrlOfPoi:"/>
-                <relationship kind="outlet" name="addressLabel" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="buttonUrl" candidateClass="UIButton"/>
-                <relationship kind="outlet" name="fullDescription" candidateClass="UITextView"/>
-                <relationship kind="outlet" name="scrollView" candidateClass="UIScrollView"/>
-                <relationship kind="outlet" name="shortDescription" candidateClass="UITextView"/>
-                <relationship kind="outlet" name="thumbImage" candidateClass="UIImageView"/>
-            </relationships>
-        </class>
-    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>

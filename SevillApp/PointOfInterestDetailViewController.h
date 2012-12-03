@@ -8,8 +8,9 @@
 
 #import <UIKit/UIKit.h>
 #import "PointOfInterest.h"
+#import "FGalleryViewController.h"
 
-@interface PointOfInterestDetailViewController : UIViewController
+@interface PointOfInterestDetailViewController : UIViewController <FGalleryViewControllerDelegate>
 
 @property (strong, nonatomic) IBOutlet UIScrollView *scrollView;
 @property (weak, nonatomic) IBOutlet UIImageView *thumbImage;
@@ -22,5 +23,6 @@
 
 
 - (IBAction)openUrlOfPoi:(id)sender;
+- (IBAction)showPhotos:(id)sender;
 
 @end

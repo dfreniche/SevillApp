@@ -49,11 +49,61 @@
     [self.scrollView setContentOffset:CGPointZero];
 }
 
+// Opens Safari
 - (IBAction)openUrlOfPoi:(id)sender {
     if (self.poi.url) {
         [[UIApplication sharedApplication] openURL:[NSURL URLWithString:self.poi.url]];
 
     }
-    
 }
+
+- (IBAction)showPhotos:(id)sender {
+    FGalleryViewController *localGallery = [[FGalleryViewController alloc] initWithPhotoSource:self];
+    [self.navigationController pushViewController:localGallery animated:YES];
+
+}
+
+#pragma mark - FGalleryViewControllerDelegate Methods
+
+
+- (int)numberOfPhotosForPhotoGallery:(FGalleryViewController *)gallery
+{
+    return [[self.poi photos] count];
+}
+
+
+- (FGalleryPhotoSourceType)photoGallery:(FGalleryViewController *)gallery sourceTypeForPhotoAtIndex:(NSUInteger)index
+{
+	
+    return FGalleryPhotoSourceTypeLocal;
+	
+}
+
+
+- (NSString*)photoGallery:(FGalleryViewController *)gallery captionForPhotoAtIndex:(NSUInteger)index
+{
+    NSString *caption;
+    caption = [[self.poi photos]  objectAtIndex:index];
+  	return caption;
+}
+
+
+- (NSString*)photoGallery:(FGalleryViewController*)gallery filePathForPhotoSize:(FGalleryPhotoSize)size atIndex:(NSUInteger)index {
+    return [[self.poi photos]  objectAtIndex:index];
+}
+
+
+- (void)handleTrashButtonTouch:(id)sender {
+    // here we could remove images from our local array storage and tell the gallery to remove that image
+    // ex:
+    //[localGallery removeImageAtIndex:[localGallery currentIndex]];
+}
+
+
+- (void)handleEditCaptionButtonTouch:(id)sender {
+    // here we could implement some code to change the caption for a stored image
+}
+
+
+
 @end
