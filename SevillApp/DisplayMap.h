@@ -8,6 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import <MapKit/MKAnnotation.h>
+#import "PointOfInterest.h"
 
 @interface DisplayMap : NSObject <MKAnnotation>
 
@@ -15,4 +16,5 @@
 @property (nonatomic, copy) NSString *title;
 @property (nonatomic, copy) NSString *subtitle;
 
+@property (nonatomic, weak) PointOfInterest *poi;
 @end

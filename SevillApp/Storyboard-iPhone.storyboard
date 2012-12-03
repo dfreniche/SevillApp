@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="3079" systemVersion="12C60" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="XBO-z7-dp7">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="2844" systemVersion="12C60" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="XBO-z7-dp7">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="2077"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="1930"/>
     </dependencies>
     <scenes>
         <!--List Of Pois View Controller - Pois-->
@@ -195,7 +195,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DzS-2L-kGe" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1466" y="-332"/>
+            <point key="canvasLocation" x="1992" y="-332"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Tzp-oF-pN5">
@@ -211,14 +211,14 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Cd1-kh-Ewe" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1889" y="-256"/>
+            <point key="canvasLocation" x="2415" y="-256"/>
         </scene>
-        <!--Map View Controller - Map-->
+        <!--Map View Controller-->
         <scene sceneID="3Bu-1h-UAI">
             <objects>
                 <viewController id="Vmj-OD-zl5" customClass="MapViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Aaa-IF-eu0">
-                        <rect key="frame" x="0.0" y="20" width="320" height="499"/>
+                        <rect key="frame" x="0.0" y="64" width="320" height="455"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" showsUserLocation="YES" translatesAutoresizingMaskIntoConstraints="NO" id="S9B-nk-xiT">
@@ -247,25 +247,56 @@
                             <constraint firstItem="S9B-nk-xiT" firstAttribute="trailing" secondItem="Aaa-IF-eu0" secondAttribute="trailing" type="default" id="noq-53-n4S"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Map" image="103-map.png" id="JeB-F1-wfj"/>
+                    <navigationItem key="navigationItem" id="BTP-Sl-6XT"/>
                     <connections>
                         <outlet property="map" destination="S9B-nk-xiT" id="3ht-hJ-aDo"/>
+                        <segue destination="od9-9w-M9o" kind="push" identifier="ShowDetailFromMapSegue" id="Ruk-hj-DIZ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dKg-Gd-pWQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="448" y="338"/>
+            <point key="canvasLocation" x="974" y="338"/>
         </scene>
-        <!--View Controller - About-->
+        <!--About View Controller - About-->
         <scene sceneID="SkP-tT-YrX">
             <objects>
-                <viewController id="XHB-sU-XUG" sceneMemberID="viewController">
+                <viewController id="XHB-sU-XUG" customClass="AboutViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="CBr-pe-tOf">
                         <rect key="frame" x="0.0" y="20" width="320" height="499"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zEr-Rz-OWA">
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="470" id="X1T-ie-urN"/>
+                                </constraints>
+                                <connections>
+                                    <outlet property="delegate" destination="XHB-sU-XUG" id="cRH-h5-yEz"/>
+                                </connections>
+                            </webView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="utb-BH-c70">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="67" id="2ov-3i-y8D"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="0.43529412150382996" blue="0.81176471710205078" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="utb-BH-c70" secondAttribute="bottom" constant="8" id="7Fj-Qp-ozL"/>
+                            <constraint firstItem="zEr-Rz-OWA" firstAttribute="top" secondItem="CBr-pe-tOf" secondAttribute="top" type="default" id="QHW-eA-4Qw"/>
+                            <constraint firstItem="zEr-Rz-OWA" firstAttribute="trailing" secondItem="CBr-pe-tOf" secondAttribute="trailing" type="default" id="SBt-af-IpZ"/>
+                            <constraint firstItem="utb-BH-c70" firstAttribute="leading" secondItem="CBr-pe-tOf" secondAttribute="leading" constant="12" id="d1S-6I-wUU"/>
+                            <constraint firstItem="zEr-Rz-OWA" firstAttribute="leading" secondItem="CBr-pe-tOf" secondAttribute="leading" type="default" id="vEI-6S-9wX"/>
+                        </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="About" image="90-life-buoy.png" id="X9d-aO-HPy"/>
+                    <connections>
+                        <outlet property="helpText" destination="zEr-Rz-OWA" id="yoM-0e-yZX"/>
+                        <outlet property="version" destination="utb-BH-c70" id="EFn-fw-jdz"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="XRq-Kr-Lh2" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -283,7 +314,7 @@
                     </tabBar>
                     <connections>
                         <segue destination="1yT-WH-dCn" kind="relationship" relationship="viewControllers" id="mjY-Vx-MpS"/>
-                        <segue destination="Vmj-OD-zl5" kind="relationship" relationship="viewControllers" id="XOc-mb-Ggg"/>
+                        <segue destination="o6R-7s-84V" kind="relationship" relationship="viewControllers" id="XOc-mb-Ggg"/>
                         <segue destination="XHB-sU-XUG" kind="relationship" relationship="viewControllers" id="g0g-cx-9Cc"/>
                     </connections>
                 </tabBarController>
@@ -310,15 +341,82 @@
             </objects>
             <point key="canvasLocation" x="448" y="-332"/>
         </scene>
+        <!--Navigation Controller - Map-->
+        <scene sceneID="gaK-jK-vYW">
+            <objects>
+                <navigationController id="o6R-7s-84V" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Map" image="103-map.png" id="JeB-F1-wfj"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="8pW-eO-ps4">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="Vmj-OD-zl5" kind="relationship" relationship="rootViewController" id="vKp-Yv-J0H"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fil-ih-eXV" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="448" y="338"/>
+        </scene>
     </scenes>
     <resources>
         <image name="103-map.png" width="26" height="21"/>
         <image name="131-tower.png" width="15" height="24"/>
         <image name="90-life-buoy.png" width="24" height="24"/>
     </resources>
+    <classes>
+        <class className="AboutViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/AboutViewController.h"/>
+            <relationships>
+                <relationship kind="outlet" name="helpText" candidateClass="UIWebView"/>
+                <relationship kind="outlet" name="version" candidateClass="UILabel"/>
+            </relationships>
+        </class>
+        <class className="ListOfPoisViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/ListOfPoisViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="loadJsonFromServer:"/>
+                <relationship kind="outlet" name="tableView" candidateClass="UITableView"/>
+            </relationships>
+        </class>
+        <class className="MapViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/MapViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="centerMap:"/>
+                <relationship kind="outlet" name="map" candidateClass="MKMapView"/>
+            </relationships>
+        </class>
+        <class className="NSLayoutConstraint" superclassName="NSObject">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>
+        </class>
+        <class className="PoiCell" superclassName="UITableViewCell">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/PoiCell.h"/>
+            <relationships>
+                <relationship kind="outlet" name="image" candidateClass="UIImageView"/>
+                <relationship kind="outlet" name="title" candidateClass="UILabel"/>
+            </relationships>
+        </class>
+        <class className="PointOfInterestDetailViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/PointOfInterestDetailViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="openUrlOfPoi:"/>
+                <relationship kind="outlet" name="addressLabel" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="buttonUrl" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="fullDescription" candidateClass="UITextView"/>
+                <relationship kind="outlet" name="scrollView" candidateClass="UIScrollView"/>
+                <relationship kind="outlet" name="shortDescription" candidateClass="UITextView"/>
+                <relationship kind="outlet" name="thumbImage" candidateClass="UIImageView"/>
+            </relationships>
+        </class>
+    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
+    <inferredMetricsTieBreakers>
+        <segue reference="Ruk-hj-DIZ"/>
+    </inferredMetricsTieBreakers>
 </document>
