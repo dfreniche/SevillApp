@@ -1,0 +1,12 @@
+To install Sinatra you need to install Ruby 1.9
+
+Open Terminal.app (in a Mac) and write:
+
+sudo gem install sinatra
+sudo gem install json
+
+
+To start the Sinatra server:
+ruby -rubygems mi_script.rb
+
+or use the shellscript attached

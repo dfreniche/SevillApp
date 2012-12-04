@@ -29,6 +29,14 @@
 		991E28431668BB0100907E9A /* globe_114x114.png in Resources */ = {isa = PBXBuildFile; fileRef = 991E28421668BB0100907E9A /* globe_114x114.png */; };
 		99250AE21666811D006B008D /* PointOfInterestDataTest.plist in Resources */ = {isa = PBXBuildFile; fileRef = 995F64331665EFF8005B835D /* PointOfInterestDataTest.plist */; };
 		99250AE61666870A006B008D /* PoiCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 99250AE51666870A006B008D /* PoiCell.m */; };
+		9926C8A1166E75AB00CC42D8 /* README.TXT in Resources */ = {isa = PBXBuildFile; fileRef = 9926C8A0166E75AB00CC42D8 /* README.TXT */; };
+		9926C8AB166E767300CC42D8 /* install-sinatra.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9926C8A3166E767300CC42D8 /* install-sinatra.txt */; };
+		9926C8AC166E767300CC42D8 /* code.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9926C8A5166E767300CC42D8 /* code.txt */; };
+		9926C8AD166E767300CC42D8 /* 210px-Séville_-_Giralda.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9926C8A7166E767300CC42D8 /* 210px-Séville_-_Giralda.jpg */; };
+		9926C8AE166E767300CC42D8 /* The_Giralda_Seville2C_Spain.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9926C8A8166E767300CC42D8 /* The_Giralda_Seville2C_Spain.jpg */; };
+		9926C8AF166E767300CC42D8 /* sevillapp-server.rb in Resources */ = {isa = PBXBuildFile; fileRef = 9926C8A9166E767300CC42D8 /* sevillapp-server.rb */; };
+		9926C8B0166E767300CC42D8 /* start-sinatra.sh in Resources */ = {isa = PBXBuildFile; fileRef = 9926C8AA166E767300CC42D8 /* start-sinatra.sh */; };
+		9926C8B2166E770200CC42D8 /* Workshop iOS Diego Freniche - SevillApp.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9926C8B1166E770200CC42D8 /* Workshop iOS Diego Freniche - SevillApp.pdf */; };
 		994E85AD166C7CC900B5CC48 /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 994E85AC166C7CC900B5CC48 /* AboutViewController.m */; };
 		994E85B7166C7D0700B5CC48 /* style.css in Resources */ = {isa = PBXBuildFile; fileRef = 994E85B1166C7D0700B5CC48 /* style.css */; };
 		994E85B9166C7D0700B5CC48 /* About.html in Resources */ = {isa = PBXBuildFile; fileRef = 994E85B3166C7D0700B5CC48 /* About.html */; };
@@ -96,6 +104,14 @@
 		991E28421668BB0100907E9A /* globe_114x114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = globe_114x114.png; sourceTree = "<group>"; };
 		99250AE41666870A006B008D /* PoiCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PoiCell.h; sourceTree = "<group>"; };
 		99250AE51666870A006B008D /* PoiCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PoiCell.m; sourceTree = "<group>"; };
+		9926C8A0166E75AB00CC42D8 /* README.TXT */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.TXT; sourceTree = "<group>"; };
+		9926C8A3166E767300CC42D8 /* install-sinatra.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "install-sinatra.txt"; sourceTree = "<group>"; };
+		9926C8A5166E767300CC42D8 /* code.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = code.txt; sourceTree = "<group>"; };
+		9926C8A7166E767300CC42D8 /* 210px-Séville_-_Giralda.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "210px-Séville_-_Giralda.jpg"; sourceTree = "<group>"; };
+		9926C8A8166E767300CC42D8 /* The_Giralda_Seville2C_Spain.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = The_Giralda_Seville2C_Spain.jpg; sourceTree = "<group>"; };
+		9926C8A9166E767300CC42D8 /* sevillapp-server.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = "sevillapp-server.rb"; sourceTree = "<group>"; };
+		9926C8AA166E767300CC42D8 /* start-sinatra.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = "start-sinatra.sh"; sourceTree = "<group>"; };
+		9926C8B1166E770200CC42D8 /* Workshop iOS Diego Freniche - SevillApp.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Workshop iOS Diego Freniche - SevillApp.pdf"; sourceTree = "<group>"; };
 		994E85AB166C7CC900B5CC48 /* AboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutViewController.h; sourceTree = "<group>"; };
 		994E85AC166C7CC900B5CC48 /* AboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutViewController.m; sourceTree = "<group>"; };
 		994E85B1166C7D0700B5CC48 /* style.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = style.css; sourceTree = "<group>"; };
@@ -231,6 +247,35 @@
 			name = FCGallery;
 			sourceTree = "<group>";
 		};
+		9926C8A2166E767300CC42D8 /* endpoint-mockup */ = {
+			isa = PBXGroup;
+			children = (
+				9926C8A3166E767300CC42D8 /* install-sinatra.txt */,
+				9926C8A4166E767300CC42D8 /* public */,
+				9926C8A9166E767300CC42D8 /* sevillapp-server.rb */,
+				9926C8AA166E767300CC42D8 /* start-sinatra.sh */,
+			);
+			path = "endpoint-mockup";
+			sourceTree = "<group>";
+		};
+		9926C8A4166E767300CC42D8 /* public */ = {
+			isa = PBXGroup;
+			children = (
+				9926C8A5166E767300CC42D8 /* code.txt */,
+				9926C8A6166E767300CC42D8 /* img */,
+			);
+			path = public;
+			sourceTree = "<group>";
+		};
+		9926C8A6166E767300CC42D8 /* img */ = {
+			isa = PBXGroup;
+			children = (
+				9926C8A7166E767300CC42D8 /* 210px-Séville_-_Giralda.jpg */,
+				9926C8A8166E767300CC42D8 /* The_Giralda_Seville2C_Spain.jpg */,
+			);
+			path = img;
+			sourceTree = "<group>";
+		};
 		994E85BB166C7D1100B5CC48 /* About */ = {
 			isa = PBXGroup;
 			children = (
@@ -260,10 +305,12 @@
 		99E7E0841664766900689820 = {
 			isa = PBXGroup;
 			children = (
-				99195163166CCC0600C03F8E /* QuartzCore.framework */,
+				9926C8A0166E75AB00CC42D8 /* README.TXT */,
+				9926C8B1166E770200CC42D8 /* Workshop iOS Diego Freniche - SevillApp.pdf */,
 				99E7E0991664766900689820 /* SevillApp */,
 				99E7E0B71664766A00689820 /* SevillAppTests */,
 				99E7E0921664766900689820 /* Frameworks */,
+				9926C8A2166E767300CC42D8 /* endpoint-mockup */,
 				99E7E0901664766900689820 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -280,6 +327,7 @@
 		99E7E0921664766900689820 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				99195163166CCC0600C03F8E /* QuartzCore.framework */,
 				99BF763916669FFC00E2479E /* CoreLocation.framework */,
 				990C045A16649059004BF85E /* MapKit.framework */,
 				99E7E0931664766900689820 /* UIKit.framework */,
@@ -442,6 +490,14 @@
 				991E28431668BB0100907E9A /* globe_114x114.png in Resources */,
 				994E85B7166C7D0700B5CC48 /* style.css in Resources */,
 				994E85B9166C7D0700B5CC48 /* About.html in Resources */,
+				9926C8A1166E75AB00CC42D8 /* README.TXT in Resources */,
+				9926C8AB166E767300CC42D8 /* install-sinatra.txt in Resources */,
+				9926C8AC166E767300CC42D8 /* code.txt in Resources */,
+				9926C8AD166E767300CC42D8 /* 210px-Séville_-_Giralda.jpg in Resources */,
+				9926C8AE166E767300CC42D8 /* The_Giralda_Seville2C_Spain.jpg in Resources */,
+				9926C8AF166E767300CC42D8 /* sevillapp-server.rb in Resources */,
+				9926C8B0166E767300CC42D8 /* start-sinatra.sh in Resources */,
+				9926C8B2166E770200CC42D8 /* Workshop iOS Diego Freniche - SevillApp.pdf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
