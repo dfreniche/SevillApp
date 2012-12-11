@@ -34,7 +34,7 @@ get '/helloworld' do
 end
 
 get '/route' do
-    sleep 10
+    #sleep 10
     content_type :json
 
     if params[:locale] == 'ES_es'

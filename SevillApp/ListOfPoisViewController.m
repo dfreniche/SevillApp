@@ -14,6 +14,7 @@
 
 @interface ListOfPoisViewController ()
 @property (nonatomic, weak) Route *listOfPois;
+@property (nonatomic, strong) UIActivityIndicatorView *act;
 @end
 
 @implementation ListOfPoisViewController
@@ -88,7 +89,12 @@
 #define kJSON_SERVER_URL [NSURL URLWithString:@"http://localhost:4567/route?locale=ES_es"]
 
 - (IBAction)loadJsonFromServer:(id)sender {
-    
+    [[UIApplication sharedApplication] setNetworkActivityIndicatorVisible:YES];
+
+    self.act = [[UIActivityIndicatorView alloc] initWithActivityIndicatorStyle:UIActivityIndicatorViewStyleWhite];
+    [self.act startAnimating];
+    UIBarButtonItem *button = [[UIBarButtonItem alloc] initWithCustomView:self.act];
+    self.navigationItem.rightBarButtonItem = button;
     dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0) , ^{
         NSData* data = [NSData dataWithContentsOfURL:kJSON_SERVER_URL];
         [self performSelectorOnMainThread:@selector(fetchedData:)
@@ -97,6 +103,15 @@
 }
 
 - (void)fetchedData:(NSData *)responseData {
+    [[UIApplication sharedApplication] setNetworkActivityIndicatorVisible:NO];
+
+    // restore button
+    [self.act stopAnimating];
+    self.navigationItem.rightBarButtonItem = self.refreshButton;
+    if (responseData == nil) {
+        return;
+    }
+    
     //parse out the json data
     NSError* error;
     NSArray* json = [NSJSONSerialization JSONObjectWithData:responseData options:kNilOptions error:&error];

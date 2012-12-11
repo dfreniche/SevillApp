@@ -10,6 +10,8 @@
 
 @interface ListOfPoisViewController : UIViewController <UITableViewDataSource, UITableViewDelegate>
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
+@property (strong, nonatomic) IBOutlet UIBarButtonItem *refreshButton;
+
 - (IBAction)loadJsonFromServer:(id)sender;
 
 @end
