@@ -15,9 +15,6 @@
 		990C045816648675004BF85E /* Route.m in Sources */ = {isa = PBXBuildFile; fileRef = 990C045716648675004BF85E /* Route.m */; };
 		990C045916648675004BF85E /* Route.m in Sources */ = {isa = PBXBuildFile; fileRef = 990C045716648675004BF85E /* Route.m */; };
 		990C045B16649059004BF85E /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 990C045A16649059004BF85E /* MapKit.framework */; };
-		9919515C166CC97400C03F8E /* FGalleryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 99195157166CC97400C03F8E /* FGalleryViewController.m */; };
-		9919515D166CC97400C03F8E /* FGalleryPhotoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 99195159166CC97400C03F8E /* FGalleryPhotoView.m */; };
-		9919515E166CC97400C03F8E /* FGalleryPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = 9919515B166CC97400C03F8E /* FGalleryPhoto.m */; };
 		99195160166CCA4100C03F8E /* FGalleryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 99195157166CC97400C03F8E /* FGalleryViewController.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		99195161166CCA4400C03F8E /* FGalleryPhotoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 99195159166CC97400C03F8E /* FGalleryPhotoView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		99195162166CCA4700C03F8E /* FGalleryPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = 9919515B166CC97400C03F8E /* FGalleryPhoto.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
@@ -37,12 +34,10 @@
 		9926C8AF166E767300CC42D8 /* sevillapp-server.rb in Resources */ = {isa = PBXBuildFile; fileRef = 9926C8A9166E767300CC42D8 /* sevillapp-server.rb */; };
 		9926C8B0166E767300CC42D8 /* start-sinatra.sh in Resources */ = {isa = PBXBuildFile; fileRef = 9926C8AA166E767300CC42D8 /* start-sinatra.sh */; };
 		9926C8B2166E770200CC42D8 /* Workshop iOS Diego Freniche - SevillApp.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9926C8B1166E770200CC42D8 /* Workshop iOS Diego Freniche - SevillApp.pdf */; };
-		994E85AD166C7CC900B5CC48 /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 994E85AC166C7CC900B5CC48 /* AboutViewController.m */; };
 		994E85B7166C7D0700B5CC48 /* style.css in Resources */ = {isa = PBXBuildFile; fileRef = 994E85B1166C7D0700B5CC48 /* style.css */; };
 		994E85B9166C7D0700B5CC48 /* About.html in Resources */ = {isa = PBXBuildFile; fileRef = 994E85B3166C7D0700B5CC48 /* About.html */; };
 		995F64311665E541005B835D /* RouteTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 995F64301665E541005B835D /* RouteTests.m */; };
 		995F64341665EFF8005B835D /* PointOfInterestDataTest.plist in Resources */ = {isa = PBXBuildFile; fileRef = 995F64331665EFF8005B835D /* PointOfInterestDataTest.plist */; };
-		996484DC166C7ED60019BFF4 /* VersionUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 996484DB166C7ED60019BFF4 /* VersionUtil.m */; };
 		996484DE166C80890019BFF4 /* VersionUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 996484DB166C7ED60019BFF4 /* VersionUtil.m */; };
 		996484DF166C80920019BFF4 /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 994E85AC166C7CC900B5CC48 /* AboutViewController.m */; };
 		9975A77316666DDC00DC1AE9 /* 90-life-buoy.png in Resources */ = {isa = PBXBuildFile; fileRef = 9975A77216666DDC00DC1AE9 /* 90-life-buoy.png */; };
@@ -559,11 +554,6 @@
 				990C045416648105004BF85E /* PointOfInterest.m in Sources */,
 				990C045916648675004BF85E /* Route.m in Sources */,
 				995F64311665E541005B835D /* RouteTests.m in Sources */,
-				994E85AD166C7CC900B5CC48 /* AboutViewController.m in Sources */,
-				996484DC166C7ED60019BFF4 /* VersionUtil.m in Sources */,
-				9919515C166CC97400C03F8E /* FGalleryViewController.m in Sources */,
-				9919515D166CC97400C03F8E /* FGalleryPhotoView.m in Sources */,
-				9919515E166CC97400C03F8E /* FGalleryPhoto.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
