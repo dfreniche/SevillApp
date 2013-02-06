@@ -152,21 +152,21 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="hU7-ff-1Qa" firstAttribute="top" secondItem="Pm6-Fu-FgG" secondAttribute="top" constant="193" id="2He-2O-Ua0"/>
+                            <constraint firstItem="0S3-1o-TDI" firstAttribute="centerX" secondItem="Pm6-Fu-FgG" secondAttribute="centerX" type="default" id="1ov-6d-c9x"/>
+                            <constraint firstAttribute="bottom" secondItem="0S3-1o-TDI" secondAttribute="bottom" constant="71" id="5tw-Nb-DNE"/>
                             <constraint firstItem="Hsl-JC-mkT" firstAttribute="centerX" secondItem="2uH-N7-Ec2" secondAttribute="centerX" type="default" id="6Au-aj-ejH"/>
+                            <constraint firstItem="Hsl-JC-mkT" firstAttribute="top" secondItem="Pm6-Fu-FgG" secondAttribute="top" constant="239" id="72F-1r-rrF"/>
                             <constraint firstItem="xb4-ji-RkW" firstAttribute="leading" secondItem="Pm6-Fu-FgG" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="BoK-6P-uB0"/>
-                            <constraint firstItem="0S3-1o-TDI" firstAttribute="top" secondItem="Pm6-Fu-FgG" secondAttribute="top" constant="620" id="Bzx-4p-sq5"/>
                             <constraint firstAttribute="trailing" secondItem="hU7-ff-1Qa" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="Dt7-Gm-CXJ"/>
-                            <constraint firstItem="Hsl-JC-mkT" firstAttribute="top" secondItem="Pm6-Fu-FgG" secondAttribute="top" constant="239" id="KBE-jv-75k"/>
+                            <constraint firstItem="hU7-ff-1Qa" firstAttribute="top" secondItem="Pm6-Fu-FgG" secondAttribute="top" constant="193" id="H7Y-ih-gua"/>
                             <constraint firstItem="2uH-N7-Ec2" firstAttribute="leading" secondItem="0S3-1o-TDI" secondAttribute="leading" type="default" id="QJM-d9-Ejn"/>
                             <constraint firstItem="2uH-N7-Ec2" firstAttribute="trailing" secondItem="0S3-1o-TDI" secondAttribute="trailing" type="default" id="T1H-bT-oox"/>
-                            <constraint firstItem="2uH-N7-Ec2" firstAttribute="top" secondItem="Pm6-Fu-FgG" secondAttribute="top" constant="491" id="VYj-3R-Q48"/>
                             <constraint firstItem="Hsl-JC-mkT" firstAttribute="leading" secondItem="Pm6-Fu-FgG" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="cOW-91-ZV9"/>
-                            <constraint firstItem="xb4-ji-RkW" firstAttribute="top" secondItem="Pm6-Fu-FgG" secondAttribute="top" constant="21" id="cqz-fi-1rn"/>
-                            <constraint firstItem="rco-VO-NOI" firstAttribute="top" secondItem="Pm6-Fu-FgG" secondAttribute="top" constant="20" symbolic="YES" type="default" id="d07-ht-JW7"/>
+                            <constraint firstItem="rco-VO-NOI" firstAttribute="top" secondItem="Pm6-Fu-FgG" secondAttribute="top" constant="20" symbolic="YES" type="default" id="dOy-OL-LO3"/>
                             <constraint firstAttribute="trailing" secondItem="Hsl-JC-mkT" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="fOJ-xf-deh"/>
-                            <constraint firstAttribute="bottom" secondItem="0S3-1o-TDI" secondAttribute="bottom" constant="71" id="hm9-tD-WDd"/>
-                            <constraint firstItem="0S3-1o-TDI" firstAttribute="centerX" secondItem="Pm6-Fu-FgG" secondAttribute="centerX" type="default" id="qBu-P4-N8g"/>
+                            <constraint firstItem="2uH-N7-Ec2" firstAttribute="top" secondItem="Pm6-Fu-FgG" secondAttribute="top" constant="491" id="faa-X3-DxM"/>
+                            <constraint firstItem="0S3-1o-TDI" firstAttribute="top" secondItem="Pm6-Fu-FgG" secondAttribute="top" constant="620" id="gUf-AM-1bU"/>
+                            <constraint firstItem="xb4-ji-RkW" firstAttribute="top" secondItem="Pm6-Fu-FgG" secondAttribute="top" constant="21" id="o6U-vJ-I8L"/>
                             <constraint firstItem="rco-VO-NOI" firstAttribute="leading" secondItem="Pm6-Fu-FgG" secondAttribute="leading" constant="169" id="rOa-IB-vdA"/>
                         </constraints>
                     </scrollView>
@@ -185,7 +185,7 @@
             </objects>
             <point key="canvasLocation" x="1992" y="-332"/>
         </scene>
-        <!--Map View Controller-->
+        <!--Map View Controller - SevillApp::Map-->
         <scene sceneID="3Bu-1h-UAI">
             <objects>
                 <viewController id="Vmj-OD-zl5" customClass="MapViewController" sceneMemberID="viewController">
@@ -198,28 +198,22 @@
                                     <outlet property="delegate" destination="Vmj-OD-zl5" id="YZg-Xc-xRQ"/>
                                 </connections>
                             </mapView>
-                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" barStyle="blackOpaque" translatesAutoresizingMaskIntoConstraints="NO" id="x9x-CB-7KD">
-                                <items>
-                                    <barButtonItem title="Center" id="iyh-tp-eis">
-                                        <connections>
-                                            <action selector="centerMap:" destination="Vmj-OD-zl5" id="U4b-3B-bf3"/>
-                                        </connections>
-                                    </barButtonItem>
-                                </items>
-                            </toolbar>
                         </subviews>
                         <color key="backgroundColor" red="0.40000000596046448" green="1" blue="0.80000001192092896" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
-                            <constraint firstItem="x9x-CB-7KD" firstAttribute="bottom" secondItem="Aaa-IF-eu0" secondAttribute="bottom" type="default" id="6ut-GS-Xdz"/>
                             <constraint firstItem="S9B-nk-xiT" firstAttribute="top" secondItem="Aaa-IF-eu0" secondAttribute="top" type="default" id="JBH-xk-NAj"/>
-                            <constraint firstItem="x9x-CB-7KD" firstAttribute="trailing" secondItem="Aaa-IF-eu0" secondAttribute="trailing" type="default" id="VW9-xh-yjH"/>
-                            <constraint firstItem="x9x-CB-7KD" firstAttribute="leading" secondItem="Aaa-IF-eu0" secondAttribute="leading" type="default" id="awp-qy-hnF"/>
-                            <constraint firstItem="x9x-CB-7KD" firstAttribute="top" secondItem="S9B-nk-xiT" secondAttribute="bottom" type="default" id="fJv-xZ-0bl"/>
                             <constraint firstItem="S9B-nk-xiT" firstAttribute="leading" secondItem="Aaa-IF-eu0" secondAttribute="leading" type="default" id="gzh-Q5-5Uk"/>
+                            <constraint firstItem="S9B-nk-xiT" firstAttribute="bottom" secondItem="Aaa-IF-eu0" secondAttribute="bottom" type="default" id="mrX-nz-cQU"/>
                             <constraint firstItem="S9B-nk-xiT" firstAttribute="trailing" secondItem="Aaa-IF-eu0" secondAttribute="trailing" type="default" id="noq-53-n4S"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="BTP-Sl-6XT"/>
+                    <navigationItem key="navigationItem" title="SevillApp::Map" id="BTP-Sl-6XT">
+                        <barButtonItem key="rightBarButtonItem" title="Center" id="iyh-tp-eis">
+                            <connections>
+                                <action selector="centerMap:" destination="Vmj-OD-zl5" id="U4b-3B-bf3"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
                         <outlet property="map" destination="S9B-nk-xiT" id="3ht-hJ-aDo"/>
                         <segue destination="od9-9w-M9o" kind="push" identifier="ShowDetailFromMapSegue" id="Ruk-hj-DIZ"/>
@@ -338,12 +332,59 @@
         <image name="131-tower.png" width="15" height="24"/>
         <image name="90-life-buoy.png" width="24" height="24"/>
     </resources>
+    <classes>
+        <class className="AboutViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/AboutViewController.h"/>
+            <relationships>
+                <relationship kind="outlet" name="helpText" candidateClass="UIWebView"/>
+                <relationship kind="outlet" name="version" candidateClass="UILabel"/>
+            </relationships>
+        </class>
+        <class className="ListOfPoisViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/ListOfPoisViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="loadJsonFromServer:"/>
+                <relationship kind="outlet" name="refreshButton" candidateClass="UIBarButtonItem"/>
+                <relationship kind="outlet" name="tableView" candidateClass="UITableView"/>
+            </relationships>
+        </class>
+        <class className="MapViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/MapViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="centerMap:"/>
+                <relationship kind="outlet" name="map" candidateClass="MKMapView"/>
+            </relationships>
+        </class>
+        <class className="NSLayoutConstraint" superclassName="NSObject">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>
+        </class>
+        <class className="PoiCell" superclassName="UITableViewCell">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/PoiCell.h"/>
+            <relationships>
+                <relationship kind="outlet" name="image" candidateClass="UIImageView"/>
+                <relationship kind="outlet" name="title" candidateClass="UILabel"/>
+            </relationships>
+        </class>
+        <class className="PointOfInterestDetailViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/PointOfInterestDetailViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="openUrlOfPoi:"/>
+                <relationship kind="action" name="showPhotos:"/>
+                <relationship kind="outlet" name="addressLabel" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="buttonUrl" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="fullDescription" candidateClass="UITextView"/>
+                <relationship kind="outlet" name="scrollView" candidateClass="UIScrollView"/>
+                <relationship kind="outlet" name="shortDescription" candidateClass="UITextView"/>
+                <relationship kind="outlet" name="thumbImage" candidateClass="UIImageView"/>
+            </relationships>
+        </class>
+    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="VrA-An-fHE"/>
+        <segue reference="Ruk-hj-DIZ"/>
     </inferredMetricsTieBreakers>
 </document>

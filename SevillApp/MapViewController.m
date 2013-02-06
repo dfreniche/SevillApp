@@ -30,8 +30,8 @@
 
 - (void)centerMapInOrigin {
     CLLocationCoordinate2D seville;
-    seville.latitude = 37.386303;
-    seville.longitude = -5.992396;
+    seville.latitude = SEVILLE_LATITUDE;
+    seville.longitude = SEVILLE_LONGITUDE;
     
     MKCoordinateRegion viewRegion = MKCoordinateRegionMakeWithDistance(seville, 2000.0, 2000.0);
     MKCoordinateRegion adjustedRegion = [self.map regionThatFits:viewRegion];
